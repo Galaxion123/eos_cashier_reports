@@ -76,7 +76,7 @@ namespace Cashier_Reports__end_of_shift_
             // Cashier_name
             // 
             this.Cashier_name.Location = new System.Drawing.Point(329, 7);
-            this.Cashier_name.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Cashier_name.Margin = new System.Windows.Forms.Padding(2);
             this.Cashier_name.Name = "Cashier_name";
             this.Cashier_name.Size = new System.Drawing.Size(125, 20);
             this.Cashier_name.TabIndex = 0;
@@ -86,7 +86,7 @@ namespace Cashier_Reports__end_of_shift_
             // 
             this.Cashiername.AutoSize = true;
             this.Cashiername.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cashiername.Location = new System.Drawing.Point(265, 10);
+            this.Cashiername.Location = new System.Drawing.Point(273, 10);
             this.Cashiername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Cashiername.Name = "Cashiername";
             this.Cashiername.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -111,7 +111,7 @@ namespace Cashier_Reports__end_of_shift_
             // CCsum
             // 
             this.CCsum.Location = new System.Drawing.Point(329, 37);
-            this.CCsum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CCsum.Margin = new System.Windows.Forms.Padding(2);
             this.CCsum.Name = "CCsum";
             this.CCsum.Size = new System.Drawing.Size(125, 20);
             this.CCsum.TabIndex = 3;
@@ -132,7 +132,7 @@ namespace Cashier_Reports__end_of_shift_
             // Cashsum
             // 
             this.Cashsum.Location = new System.Drawing.Point(329, 67);
-            this.Cashsum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Cashsum.Margin = new System.Windows.Forms.Padding(2);
             this.Cashsum.Name = "Cashsum";
             this.Cashsum.Size = new System.Drawing.Size(125, 20);
             this.Cashsum.TabIndex = 5;
@@ -148,9 +148,9 @@ namespace Cashier_Reports__end_of_shift_
             this.groupBox1.Controls.Add(this.Refundslabel);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(13, 97);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(337, 305);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
@@ -160,7 +160,7 @@ namespace Cashier_Reports__end_of_shift_
             // 
             this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox23.Location = new System.Drawing.Point(232, 269);
-            this.textBox23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox23.Margin = new System.Windows.Forms.Padding(2);
             this.textBox23.Name = "textBox23";
             this.textBox23.ReadOnly = true;
             this.textBox23.Size = new System.Drawing.Size(45, 20);
@@ -183,7 +183,7 @@ namespace Cashier_Reports__end_of_shift_
             this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(273, 49);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(23, 23);
             this.button1.TabIndex = 8;
@@ -217,7 +217,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Refunds.Controls.Add(this.textBox8, 1, 1);
             this.Refunds.Controls.Add(this.label5, 0, 0);
             this.Refunds.Location = new System.Drawing.Point(11, 49);
-            this.Refunds.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Refunds.Margin = new System.Windows.Forms.Padding(2);
             this.Refunds.Name = "Refunds";
             this.Refunds.RowCount = 9;
             this.Refunds.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
@@ -235,7 +235,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox20
             // 
             this.textBox20.Location = new System.Drawing.Point(72, 188);
-            this.textBox20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox20.Margin = new System.Windows.Forms.Padding(2);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(182, 20);
             this.textBox20.TabIndex = 17;
@@ -243,7 +243,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox19
             // 
             this.textBox19.Location = new System.Drawing.Point(4, 165);
-            this.textBox19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox19.Margin = new System.Windows.Forms.Padding(2);
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(62, 20);
             this.textBox19.TabIndex = 14;
@@ -251,7 +251,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(72, 165);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(182, 20);
             this.textBox6.TabIndex = 15;
@@ -259,7 +259,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(4, 188);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(62, 20);
             this.textBox5.TabIndex = 16;
@@ -279,7 +279,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox17
             // 
             this.textBox17.Location = new System.Drawing.Point(4, 142);
-            this.textBox17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox17.Margin = new System.Windows.Forms.Padding(2);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(62, 20);
             this.textBox17.TabIndex = 12;
@@ -287,7 +287,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox18
             // 
             this.textBox18.Location = new System.Drawing.Point(72, 142);
-            this.textBox18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox18.Margin = new System.Windows.Forms.Padding(2);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(182, 20);
             this.textBox18.TabIndex = 13;
@@ -295,7 +295,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox15
             // 
             this.textBox15.Location = new System.Drawing.Point(4, 119);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox15.Margin = new System.Windows.Forms.Padding(2);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(62, 20);
             this.textBox15.TabIndex = 10;
@@ -303,7 +303,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox16
             // 
             this.textBox16.Location = new System.Drawing.Point(72, 119);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox16.Margin = new System.Windows.Forms.Padding(2);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(182, 20);
             this.textBox16.TabIndex = 11;
@@ -311,7 +311,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox13
             // 
             this.textBox13.Location = new System.Drawing.Point(4, 96);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(2);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(62, 20);
             this.textBox13.TabIndex = 8;
@@ -319,7 +319,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox14
             // 
             this.textBox14.Location = new System.Drawing.Point(72, 96);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox14.Margin = new System.Windows.Forms.Padding(2);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(182, 20);
             this.textBox14.TabIndex = 9;
@@ -327,7 +327,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(4, 73);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(2);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(62, 20);
             this.textBox11.TabIndex = 6;
@@ -335,7 +335,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(72, 73);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(182, 20);
             this.textBox12.TabIndex = 7;
@@ -343,7 +343,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(4, 50);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(62, 20);
             this.textBox9.TabIndex = 4;
@@ -351,7 +351,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(72, 50);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(2);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(182, 20);
             this.textBox10.TabIndex = 5;
@@ -359,7 +359,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(4, 27);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(62, 20);
             this.textBox7.TabIndex = 2;
@@ -367,7 +367,7 @@ namespace Cashier_Reports__end_of_shift_
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(72, 27);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(182, 20);
             this.textBox8.TabIndex = 3;
@@ -389,7 +389,7 @@ namespace Cashier_Reports__end_of_shift_
             // 
             this.Refundsum.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Refundsum.Location = new System.Drawing.Point(168, 18);
-            this.Refundsum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Refundsum.Margin = new System.Windows.Forms.Padding(2);
             this.Refundsum.Name = "Refundsum";
             this.Refundsum.Size = new System.Drawing.Size(125, 20);
             this.Refundsum.TabIndex = 6;
@@ -414,15 +414,15 @@ namespace Cashier_Reports__end_of_shift_
             this.label7.Location = new System.Drawing.Point(13, 21);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(182, 13);
+            this.label7.Size = new System.Drawing.Size(181, 13);
             this.label7.TabIndex = 7;
-            this.label7.Text = "Сумма переданный наличных";
+            this.label7.Text = "Сумма переданных наличных";
             // 
             // textBox21
             // 
             this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox21.Location = new System.Drawing.Point(199, 18);
-            this.textBox21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox21.Margin = new System.Windows.Forms.Padding(2);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(125, 20);
             this.textBox21.TabIndex = 8;
@@ -436,9 +436,9 @@ namespace Cashier_Reports__end_of_shift_
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(353, 97);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(343, 83);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
@@ -461,7 +461,7 @@ namespace Cashier_Reports__end_of_shift_
             // 
             this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox22.Location = new System.Drawing.Point(197, 52);
-            this.textBox22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox22.Margin = new System.Windows.Forms.Padding(2);
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(127, 20);
             this.textBox22.TabIndex = 9;
@@ -472,7 +472,7 @@ namespace Cashier_Reports__end_of_shift_
             this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(419, 194);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(234, 40);
             this.button2.TabIndex = 10;
@@ -484,7 +484,7 @@ namespace Cashier_Reports__end_of_shift_
             this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(419, 268);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(234, 40);
             this.button3.TabIndex = 11;
@@ -496,7 +496,7 @@ namespace Cashier_Reports__end_of_shift_
             this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(419, 342);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(234, 40);
             this.button4.TabIndex = 12;
@@ -519,7 +519,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Controls.Add(this.Cashiername);
             this.Controls.Add(this.Cashier_name);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EOSReports";
             this.Text = "Отчёты конца смены";
             this.Load += new System.EventHandler(this.Form1_Load);
