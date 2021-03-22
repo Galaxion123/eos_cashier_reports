@@ -41,5 +41,29 @@ namespace Cashier_Reports__end_of_shift_
         {
 
         }
+
+        private void Add_line_Click(object sender, EventArgs e)
+        {
+            this.Refunds.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 13F));
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Refunds_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
