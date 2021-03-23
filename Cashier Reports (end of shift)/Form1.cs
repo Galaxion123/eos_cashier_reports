@@ -63,12 +63,19 @@ namespace Cashier_Reports__end_of_shift_
 
         private void Cashier_name_TextChanged(object sender, EventArgs e)
         {
-            int i = 0;
             string str = Cashier_name.Text;
             if (str.Trim().Length == 0)
                 errorName.SetError(Cashier_name, "Это поле не должно быть пустым. Укажите фамилию кассира.");
             else
-                errorName.SetError(Cashier_name, "");
+            {
+                for (int i = 0; i < str.Length; i++)
+                {
+                    if (char.IsNumber(str[i]))
+                        errorName.SetError(Cashier_name, "Это поле должно содержать только буквы, в соответствии со структурой Фамилия И.О.");
+                    else
+                        errorName.SetError(Cashier_name, "");
+                }
+            }
         }
 
         private void CCsum_TextChanged(object sender, EventArgs e)
@@ -169,6 +176,33 @@ namespace Cashier_Reports__end_of_shift_
                 else
                     errorNumeric.SetError(given_money_sum, "");
             }
+        }
+
+        private void receptor_name_TextChanged(object sender, EventArgs e)
+        {
+            string str = receptor_name.Text;
+            if (str.Trim().Length == 0)
+                errorName.SetError(receptor_name, "Это поле не должно быть пустым. Укажите фамилию кассира.");
+            else
+            {
+                for (int i = 0; i < str.Length; i++)
+                {
+                    if (char.IsNumber(str[i]))
+                        errorName.SetError(receptor_name, "Это поле должно содержать только буквы, в соответствии со структурой Фамилия И.О.");
+                    else
+                        errorName.SetError(receptor_name, "");
+                }
+            }
+        }
+
+        private void table11_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Correct_textbox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

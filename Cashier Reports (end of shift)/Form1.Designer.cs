@@ -40,6 +40,8 @@ namespace Cashier_Reports__end_of_shift_
             this.Correct_textbox = new System.Windows.Forms.TextBox();
             this.Correctlabel = new System.Windows.Forms.Label();
             this.Refunds = new System.Windows.Forms.TableLayoutPanel();
+            this.table241 = new System.Windows.Forms.TextBox();
+            this.table242 = new System.Windows.Forms.TextBox();
             this.table231 = new System.Windows.Forms.TextBox();
             this.table232 = new System.Windows.Forms.TextBox();
             this.table221 = new System.Windows.Forms.TextBox();
@@ -98,8 +100,6 @@ namespace Cashier_Reports__end_of_shift_
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.Quit = new System.Windows.Forms.Button();
-            this.table241 = new System.Windows.Forms.TextBox();
-            this.table242 = new System.Windows.Forms.TextBox();
             this.errorNumeric = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorName = new System.Windows.Forms.ErrorProvider(this.components);
             this.refunds_group.SuspendLayout();
@@ -203,6 +203,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Correct_textbox.ReadOnly = true;
             this.Correct_textbox.Size = new System.Drawing.Size(45, 20);
             this.Correct_textbox.TabIndex = 10;
+            this.Correct_textbox.TextChanged += new System.EventHandler(this.Correct_textbox_TextChanged);
             // 
             // Correctlabel
             // 
@@ -264,16 +265,16 @@ namespace Cashier_Reports__end_of_shift_
             this.Refunds.Controls.Add(this.table61, 0, 6);
             this.Refunds.Controls.Add(this.table62, 1, 6);
             this.Refunds.Controls.Add(this.table51, 0, 5);
-            this.Refunds.Controls.Add(this.table52, 1, 5);
             this.Refunds.Controls.Add(this.table41, 0, 4);
             this.Refunds.Controls.Add(this.table42, 1, 4);
             this.Refunds.Controls.Add(this.table31, 0, 3);
-            this.Refunds.Controls.Add(this.table32, 1, 3);
             this.Refunds.Controls.Add(this.table21, 0, 2);
-            this.Refunds.Controls.Add(this.table22, 1, 2);
             this.Refunds.Controls.Add(this.table11, 0, 1);
-            this.Refunds.Controls.Add(this.table12, 1, 1);
             this.Refunds.Controls.Add(this.Check_num, 0, 0);
+            this.Refunds.Controls.Add(this.table22, 1, 1);
+            this.Refunds.Controls.Add(this.table12, 1, 2);
+            this.Refunds.Controls.Add(this.table52, 1, 3);
+            this.Refunds.Controls.Add(this.table32, 1, 5);
             this.Refunds.Location = new System.Drawing.Point(12, 42);
             this.Refunds.Margin = new System.Windows.Forms.Padding(2);
             this.Refunds.Name = "Refunds";
@@ -306,6 +307,24 @@ namespace Cashier_Reports__end_of_shift_
             this.Refunds.Size = new System.Drawing.Size(313, 267);
             this.Refunds.TabIndex = 7;
             this.Refunds.Paint += new System.Windows.Forms.PaintEventHandler(this.Refunds_Paint);
+            // 
+            // table241
+            // 
+            this.table241.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table241.Location = new System.Drawing.Point(4, 652);
+            this.table241.Margin = new System.Windows.Forms.Padding(2);
+            this.table241.Name = "table241";
+            this.table241.Size = new System.Drawing.Size(72, 20);
+            this.table241.TabIndex = 48;
+            // 
+            // table242
+            // 
+            this.table242.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table242.Location = new System.Drawing.Point(82, 652);
+            this.table242.Margin = new System.Windows.Forms.Padding(2);
+            this.table242.Name = "table242";
+            this.table242.Size = new System.Drawing.Size(210, 20);
+            this.table242.TabIndex = 49;
             // 
             // table231
             // 
@@ -655,11 +674,11 @@ namespace Cashier_Reports__end_of_shift_
             // table52
             // 
             this.table52.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.table52.Location = new System.Drawing.Point(82, 139);
+            this.table52.Location = new System.Drawing.Point(82, 85);
             this.table52.Margin = new System.Windows.Forms.Padding(2);
             this.table52.Name = "table52";
             this.table52.Size = new System.Drawing.Size(210, 20);
-            this.table52.TabIndex = 11;
+            this.table52.TabIndex = 7;
             // 
             // table41
             // 
@@ -691,11 +710,11 @@ namespace Cashier_Reports__end_of_shift_
             // table32
             // 
             this.table32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.table32.Location = new System.Drawing.Point(82, 85);
+            this.table32.Location = new System.Drawing.Point(82, 139);
             this.table32.Margin = new System.Windows.Forms.Padding(2);
             this.table32.Name = "table32";
             this.table32.Size = new System.Drawing.Size(210, 20);
-            this.table32.TabIndex = 7;
+            this.table32.TabIndex = 11;
             // 
             // table21
             // 
@@ -709,11 +728,11 @@ namespace Cashier_Reports__end_of_shift_
             // table22
             // 
             this.table22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.table22.Location = new System.Drawing.Point(82, 58);
+            this.table22.Location = new System.Drawing.Point(82, 31);
             this.table22.Margin = new System.Windows.Forms.Padding(2);
             this.table22.Name = "table22";
             this.table22.Size = new System.Drawing.Size(210, 20);
-            this.table22.TabIndex = 5;
+            this.table22.TabIndex = 3;
             // 
             // table11
             // 
@@ -723,15 +742,16 @@ namespace Cashier_Reports__end_of_shift_
             this.table11.Name = "table11";
             this.table11.Size = new System.Drawing.Size(72, 20);
             this.table11.TabIndex = 2;
+            this.table11.TextChanged += new System.EventHandler(this.table11_TextChanged);
             // 
             // table12
             // 
             this.table12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.table12.Location = new System.Drawing.Point(82, 31);
+            this.table12.Location = new System.Drawing.Point(82, 58);
             this.table12.Margin = new System.Windows.Forms.Padding(2);
             this.table12.Name = "table12";
             this.table12.Size = new System.Drawing.Size(210, 20);
-            this.table12.TabIndex = 3;
+            this.table12.TabIndex = 5;
             // 
             // Check_num
             // 
@@ -829,6 +849,7 @@ namespace Cashier_Reports__end_of_shift_
             this.receptor_name.Size = new System.Drawing.Size(127, 20);
             this.receptor_name.TabIndex = 9;
             this.receptor_name.Text = "Фамилия И.О.";
+            this.receptor_name.TextChanged += new System.EventHandler(this.receptor_name_TextChanged);
             // 
             // button2
             // 
@@ -868,24 +889,6 @@ namespace Cashier_Reports__end_of_shift_
             this.Quit.Text = "Выход";
             this.Quit.UseVisualStyleBackColor = false;
             this.Quit.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // table241
-            // 
-            this.table241.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.table241.Location = new System.Drawing.Point(4, 652);
-            this.table241.Margin = new System.Windows.Forms.Padding(2);
-            this.table241.Name = "table241";
-            this.table241.Size = new System.Drawing.Size(72, 20);
-            this.table241.TabIndex = 48;
-            // 
-            // table242
-            // 
-            this.table242.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.table242.Location = new System.Drawing.Point(82, 652);
-            this.table242.Margin = new System.Windows.Forms.Padding(2);
-            this.table242.Name = "table242";
-            this.table242.Size = new System.Drawing.Size(210, 20);
-            this.table242.TabIndex = 49;
             // 
             // errorNumeric
             // 
