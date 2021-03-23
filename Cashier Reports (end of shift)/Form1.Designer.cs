@@ -29,6 +29,7 @@ namespace Cashier_Reports__end_of_shift_
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.Cashier_name = new System.Windows.Forms.TextBox();
             this.Cashiername = new System.Windows.Forms.Label();
             this.Sumlabel = new System.Windows.Forms.Label();
@@ -39,23 +40,53 @@ namespace Cashier_Reports__end_of_shift_
             this.Correct_textbox = new System.Windows.Forms.TextBox();
             this.Correctlabel = new System.Windows.Forms.Label();
             this.Refunds = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.table231 = new System.Windows.Forms.TextBox();
+            this.table232 = new System.Windows.Forms.TextBox();
+            this.table221 = new System.Windows.Forms.TextBox();
+            this.table222 = new System.Windows.Forms.TextBox();
+            this.table211 = new System.Windows.Forms.TextBox();
+            this.table212 = new System.Windows.Forms.TextBox();
+            this.table201 = new System.Windows.Forms.TextBox();
+            this.table202 = new System.Windows.Forms.TextBox();
+            this.table191 = new System.Windows.Forms.TextBox();
+            this.table192 = new System.Windows.Forms.TextBox();
+            this.table181 = new System.Windows.Forms.TextBox();
+            this.table182 = new System.Windows.Forms.TextBox();
+            this.table171 = new System.Windows.Forms.TextBox();
+            this.table172 = new System.Windows.Forms.TextBox();
+            this.table161 = new System.Windows.Forms.TextBox();
+            this.table162 = new System.Windows.Forms.TextBox();
+            this.table151 = new System.Windows.Forms.TextBox();
+            this.table152 = new System.Windows.Forms.TextBox();
+            this.table141 = new System.Windows.Forms.TextBox();
+            this.table142 = new System.Windows.Forms.TextBox();
+            this.table131 = new System.Windows.Forms.TextBox();
+            this.table132 = new System.Windows.Forms.TextBox();
+            this.table121 = new System.Windows.Forms.TextBox();
+            this.table122 = new System.Windows.Forms.TextBox();
+            this.table111 = new System.Windows.Forms.TextBox();
+            this.table112 = new System.Windows.Forms.TextBox();
+            this.table101 = new System.Windows.Forms.TextBox();
+            this.table102 = new System.Windows.Forms.TextBox();
+            this.table91 = new System.Windows.Forms.TextBox();
+            this.table92 = new System.Windows.Forms.TextBox();
+            this.table82 = new System.Windows.Forms.TextBox();
+            this.table71 = new System.Windows.Forms.TextBox();
+            this.table72 = new System.Windows.Forms.TextBox();
+            this.table81 = new System.Windows.Forms.TextBox();
             this.Refsum_check = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.table61 = new System.Windows.Forms.TextBox();
+            this.table62 = new System.Windows.Forms.TextBox();
+            this.table51 = new System.Windows.Forms.TextBox();
+            this.table52 = new System.Windows.Forms.TextBox();
+            this.table41 = new System.Windows.Forms.TextBox();
+            this.table42 = new System.Windows.Forms.TextBox();
+            this.table31 = new System.Windows.Forms.TextBox();
+            this.table32 = new System.Windows.Forms.TextBox();
+            this.table21 = new System.Windows.Forms.TextBox();
+            this.table22 = new System.Windows.Forms.TextBox();
+            this.table11 = new System.Windows.Forms.TextBox();
+            this.table12 = new System.Windows.Forms.TextBox();
             this.Check_num = new System.Windows.Forms.Label();
             this.Refundsum = new System.Windows.Forms.TextBox();
             this.Refundslabel = new System.Windows.Forms.Label();
@@ -67,39 +98,15 @@ namespace Cashier_Reports__end_of_shift_
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.Quit = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.table241 = new System.Windows.Forms.TextBox();
+            this.table242 = new System.Windows.Forms.TextBox();
+            this.errorNumeric = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorName = new System.Windows.Forms.ErrorProvider(this.components);
             this.refunds_group.SuspendLayout();
             this.Refunds.SuspendLayout();
             this.arrivals_group.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorNumeric)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorName)).BeginInit();
             this.SuspendLayout();
             // 
             // Cashier_name
@@ -110,6 +117,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Cashier_name.Size = new System.Drawing.Size(125, 20);
             this.Cashier_name.TabIndex = 0;
             this.Cashier_name.Text = "Фамилия И.О.";
+            this.Cashier_name.TextChanged += new System.EventHandler(this.Cashier_name_TextChanged);
             // 
             // Cashiername
             // 
@@ -145,6 +153,7 @@ namespace Cashier_Reports__end_of_shift_
             this.CCsum.Size = new System.Drawing.Size(125, 20);
             this.CCsum.TabIndex = 3;
             this.CCsum.Text = "0.00";
+            this.CCsum.TextChanged += new System.EventHandler(this.CCsum_TextChanged);
             // 
             // Cashsumlabel
             // 
@@ -166,6 +175,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Cashsum.Size = new System.Drawing.Size(125, 20);
             this.Cashsum.TabIndex = 5;
             this.Cashsum.Text = "0.00";
+            this.Cashsum.TextChanged += new System.EventHandler(this.Cashsum_TextChanged);
             // 
             // refunds_group
             // 
@@ -214,58 +224,61 @@ namespace Cashier_Reports__end_of_shift_
             this.Refunds.ColumnCount = 2;
             this.Refunds.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.52461F));
             this.Refunds.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.47539F));
-            this.Refunds.Controls.Add(this.textBox45, 0, 23);
-            this.Refunds.Controls.Add(this.textBox46, 0, 23);
-            this.Refunds.Controls.Add(this.textBox43, 0, 22);
-            this.Refunds.Controls.Add(this.textBox44, 0, 22);
-            this.Refunds.Controls.Add(this.textBox41, 0, 21);
-            this.Refunds.Controls.Add(this.textBox42, 0, 21);
-            this.Refunds.Controls.Add(this.textBox39, 0, 20);
-            this.Refunds.Controls.Add(this.textBox40, 0, 20);
-            this.Refunds.Controls.Add(this.textBox37, 0, 19);
-            this.Refunds.Controls.Add(this.textBox38, 0, 19);
-            this.Refunds.Controls.Add(this.textBox35, 0, 18);
-            this.Refunds.Controls.Add(this.textBox36, 0, 18);
-            this.Refunds.Controls.Add(this.textBox33, 0, 17);
-            this.Refunds.Controls.Add(this.textBox34, 0, 17);
-            this.Refunds.Controls.Add(this.textBox31, 0, 16);
-            this.Refunds.Controls.Add(this.textBox32, 0, 16);
-            this.Refunds.Controls.Add(this.textBox29, 0, 15);
-            this.Refunds.Controls.Add(this.textBox30, 0, 15);
-            this.Refunds.Controls.Add(this.textBox27, 0, 14);
-            this.Refunds.Controls.Add(this.textBox28, 0, 14);
-            this.Refunds.Controls.Add(this.textBox25, 0, 13);
-            this.Refunds.Controls.Add(this.textBox26, 0, 13);
-            this.Refunds.Controls.Add(this.textBox23, 0, 12);
-            this.Refunds.Controls.Add(this.textBox24, 0, 12);
-            this.Refunds.Controls.Add(this.textBox21, 0, 11);
-            this.Refunds.Controls.Add(this.textBox22, 0, 11);
-            this.Refunds.Controls.Add(this.textBox3, 0, 10);
-            this.Refunds.Controls.Add(this.textBox4, 0, 10);
-            this.Refunds.Controls.Add(this.textBox1, 0, 9);
-            this.Refunds.Controls.Add(this.textBox2, 0, 9);
-            this.Refunds.Controls.Add(this.textBox20, 0, 8);
-            this.Refunds.Controls.Add(this.textBox19, 0, 7);
-            this.Refunds.Controls.Add(this.textBox6, 0, 7);
-            this.Refunds.Controls.Add(this.textBox5, 0, 7);
+            this.Refunds.Controls.Add(this.table241, 0, 24);
+            this.Refunds.Controls.Add(this.table242, 0, 24);
+            this.Refunds.Controls.Add(this.table231, 0, 23);
+            this.Refunds.Controls.Add(this.table232, 0, 23);
+            this.Refunds.Controls.Add(this.table221, 0, 22);
+            this.Refunds.Controls.Add(this.table222, 0, 22);
+            this.Refunds.Controls.Add(this.table211, 0, 21);
+            this.Refunds.Controls.Add(this.table212, 0, 21);
+            this.Refunds.Controls.Add(this.table201, 0, 20);
+            this.Refunds.Controls.Add(this.table202, 0, 20);
+            this.Refunds.Controls.Add(this.table191, 0, 19);
+            this.Refunds.Controls.Add(this.table192, 0, 19);
+            this.Refunds.Controls.Add(this.table181, 0, 18);
+            this.Refunds.Controls.Add(this.table182, 0, 18);
+            this.Refunds.Controls.Add(this.table171, 0, 17);
+            this.Refunds.Controls.Add(this.table172, 0, 17);
+            this.Refunds.Controls.Add(this.table161, 0, 16);
+            this.Refunds.Controls.Add(this.table162, 0, 16);
+            this.Refunds.Controls.Add(this.table151, 0, 15);
+            this.Refunds.Controls.Add(this.table152, 0, 15);
+            this.Refunds.Controls.Add(this.table141, 0, 14);
+            this.Refunds.Controls.Add(this.table142, 0, 14);
+            this.Refunds.Controls.Add(this.table131, 0, 13);
+            this.Refunds.Controls.Add(this.table132, 0, 13);
+            this.Refunds.Controls.Add(this.table121, 0, 12);
+            this.Refunds.Controls.Add(this.table122, 0, 12);
+            this.Refunds.Controls.Add(this.table111, 0, 11);
+            this.Refunds.Controls.Add(this.table112, 0, 11);
+            this.Refunds.Controls.Add(this.table101, 0, 10);
+            this.Refunds.Controls.Add(this.table102, 0, 10);
+            this.Refunds.Controls.Add(this.table91, 0, 9);
+            this.Refunds.Controls.Add(this.table92, 0, 9);
+            this.Refunds.Controls.Add(this.table82, 0, 8);
+            this.Refunds.Controls.Add(this.table71, 0, 7);
+            this.Refunds.Controls.Add(this.table72, 0, 7);
+            this.Refunds.Controls.Add(this.table81, 0, 7);
             this.Refunds.Controls.Add(this.Refsum_check, 1, 0);
-            this.Refunds.Controls.Add(this.textBox17, 0, 6);
-            this.Refunds.Controls.Add(this.textBox18, 1, 6);
-            this.Refunds.Controls.Add(this.textBox15, 0, 5);
-            this.Refunds.Controls.Add(this.textBox16, 1, 5);
-            this.Refunds.Controls.Add(this.textBox13, 0, 4);
-            this.Refunds.Controls.Add(this.textBox14, 1, 4);
-            this.Refunds.Controls.Add(this.textBox11, 0, 3);
-            this.Refunds.Controls.Add(this.textBox12, 1, 3);
-            this.Refunds.Controls.Add(this.textBox9, 0, 2);
-            this.Refunds.Controls.Add(this.textBox10, 1, 2);
-            this.Refunds.Controls.Add(this.textBox7, 0, 1);
-            this.Refunds.Controls.Add(this.textBox8, 1, 1);
+            this.Refunds.Controls.Add(this.table61, 0, 6);
+            this.Refunds.Controls.Add(this.table62, 1, 6);
+            this.Refunds.Controls.Add(this.table51, 0, 5);
+            this.Refunds.Controls.Add(this.table52, 1, 5);
+            this.Refunds.Controls.Add(this.table41, 0, 4);
+            this.Refunds.Controls.Add(this.table42, 1, 4);
+            this.Refunds.Controls.Add(this.table31, 0, 3);
+            this.Refunds.Controls.Add(this.table32, 1, 3);
+            this.Refunds.Controls.Add(this.table21, 0, 2);
+            this.Refunds.Controls.Add(this.table22, 1, 2);
+            this.Refunds.Controls.Add(this.table11, 0, 1);
+            this.Refunds.Controls.Add(this.table12, 1, 1);
             this.Refunds.Controls.Add(this.Check_num, 0, 0);
             this.Refunds.Location = new System.Drawing.Point(12, 42);
             this.Refunds.Margin = new System.Windows.Forms.Padding(2);
             this.Refunds.Name = "Refunds";
-            this.Refunds.RowCount = 24;
+            this.Refunds.RowCount = 25;
+            this.Refunds.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.Refunds.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.Refunds.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.Refunds.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
@@ -294,37 +307,311 @@ namespace Cashier_Reports__end_of_shift_
             this.Refunds.TabIndex = 7;
             this.Refunds.Paint += new System.Windows.Forms.PaintEventHandler(this.Refunds_Paint);
             // 
-            // textBox20
+            // table231
             // 
-            this.textBox20.Location = new System.Drawing.Point(82, 220);
-            this.textBox20.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(210, 20);
-            this.textBox20.TabIndex = 17;
+            this.table231.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table231.Location = new System.Drawing.Point(4, 625);
+            this.table231.Margin = new System.Windows.Forms.Padding(2);
+            this.table231.Name = "table231";
+            this.table231.Size = new System.Drawing.Size(72, 20);
+            this.table231.TabIndex = 46;
             // 
-            // textBox19
+            // table232
             // 
-            this.textBox19.Location = new System.Drawing.Point(4, 193);
-            this.textBox19.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(72, 20);
-            this.textBox19.TabIndex = 14;
+            this.table232.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table232.Location = new System.Drawing.Point(82, 625);
+            this.table232.Margin = new System.Windows.Forms.Padding(2);
+            this.table232.Name = "table232";
+            this.table232.Size = new System.Drawing.Size(210, 20);
+            this.table232.TabIndex = 47;
             // 
-            // textBox6
+            // table221
             // 
-            this.textBox6.Location = new System.Drawing.Point(82, 193);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(210, 20);
-            this.textBox6.TabIndex = 15;
+            this.table221.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table221.Location = new System.Drawing.Point(4, 598);
+            this.table221.Margin = new System.Windows.Forms.Padding(2);
+            this.table221.Name = "table221";
+            this.table221.Size = new System.Drawing.Size(72, 20);
+            this.table221.TabIndex = 44;
             // 
-            // textBox5
+            // table222
             // 
-            this.textBox5.Location = new System.Drawing.Point(4, 220);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(72, 20);
-            this.textBox5.TabIndex = 16;
+            this.table222.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table222.Location = new System.Drawing.Point(82, 598);
+            this.table222.Margin = new System.Windows.Forms.Padding(2);
+            this.table222.Name = "table222";
+            this.table222.Size = new System.Drawing.Size(210, 20);
+            this.table222.TabIndex = 45;
+            // 
+            // table211
+            // 
+            this.table211.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table211.Location = new System.Drawing.Point(4, 571);
+            this.table211.Margin = new System.Windows.Forms.Padding(2);
+            this.table211.Name = "table211";
+            this.table211.Size = new System.Drawing.Size(72, 20);
+            this.table211.TabIndex = 42;
+            // 
+            // table212
+            // 
+            this.table212.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table212.Location = new System.Drawing.Point(82, 571);
+            this.table212.Margin = new System.Windows.Forms.Padding(2);
+            this.table212.Name = "table212";
+            this.table212.Size = new System.Drawing.Size(210, 20);
+            this.table212.TabIndex = 43;
+            // 
+            // table201
+            // 
+            this.table201.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table201.Location = new System.Drawing.Point(4, 544);
+            this.table201.Margin = new System.Windows.Forms.Padding(2);
+            this.table201.Name = "table201";
+            this.table201.Size = new System.Drawing.Size(72, 20);
+            this.table201.TabIndex = 40;
+            // 
+            // table202
+            // 
+            this.table202.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table202.Location = new System.Drawing.Point(82, 544);
+            this.table202.Margin = new System.Windows.Forms.Padding(2);
+            this.table202.Name = "table202";
+            this.table202.Size = new System.Drawing.Size(210, 20);
+            this.table202.TabIndex = 41;
+            // 
+            // table191
+            // 
+            this.table191.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table191.Location = new System.Drawing.Point(4, 517);
+            this.table191.Margin = new System.Windows.Forms.Padding(2);
+            this.table191.Name = "table191";
+            this.table191.Size = new System.Drawing.Size(72, 20);
+            this.table191.TabIndex = 38;
+            // 
+            // table192
+            // 
+            this.table192.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table192.Location = new System.Drawing.Point(82, 517);
+            this.table192.Margin = new System.Windows.Forms.Padding(2);
+            this.table192.Name = "table192";
+            this.table192.Size = new System.Drawing.Size(210, 20);
+            this.table192.TabIndex = 39;
+            // 
+            // table181
+            // 
+            this.table181.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table181.Location = new System.Drawing.Point(4, 490);
+            this.table181.Margin = new System.Windows.Forms.Padding(2);
+            this.table181.Name = "table181";
+            this.table181.Size = new System.Drawing.Size(72, 20);
+            this.table181.TabIndex = 36;
+            // 
+            // table182
+            // 
+            this.table182.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table182.Location = new System.Drawing.Point(82, 490);
+            this.table182.Margin = new System.Windows.Forms.Padding(2);
+            this.table182.Name = "table182";
+            this.table182.Size = new System.Drawing.Size(210, 20);
+            this.table182.TabIndex = 37;
+            // 
+            // table171
+            // 
+            this.table171.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table171.Location = new System.Drawing.Point(4, 463);
+            this.table171.Margin = new System.Windows.Forms.Padding(2);
+            this.table171.Name = "table171";
+            this.table171.Size = new System.Drawing.Size(72, 20);
+            this.table171.TabIndex = 34;
+            // 
+            // table172
+            // 
+            this.table172.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table172.Location = new System.Drawing.Point(82, 463);
+            this.table172.Margin = new System.Windows.Forms.Padding(2);
+            this.table172.Name = "table172";
+            this.table172.Size = new System.Drawing.Size(210, 20);
+            this.table172.TabIndex = 35;
+            // 
+            // table161
+            // 
+            this.table161.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table161.Location = new System.Drawing.Point(4, 436);
+            this.table161.Margin = new System.Windows.Forms.Padding(2);
+            this.table161.Name = "table161";
+            this.table161.Size = new System.Drawing.Size(72, 20);
+            this.table161.TabIndex = 32;
+            // 
+            // table162
+            // 
+            this.table162.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table162.Location = new System.Drawing.Point(82, 436);
+            this.table162.Margin = new System.Windows.Forms.Padding(2);
+            this.table162.Name = "table162";
+            this.table162.Size = new System.Drawing.Size(210, 20);
+            this.table162.TabIndex = 33;
+            // 
+            // table151
+            // 
+            this.table151.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table151.Location = new System.Drawing.Point(4, 409);
+            this.table151.Margin = new System.Windows.Forms.Padding(2);
+            this.table151.Name = "table151";
+            this.table151.Size = new System.Drawing.Size(72, 20);
+            this.table151.TabIndex = 30;
+            // 
+            // table152
+            // 
+            this.table152.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table152.Location = new System.Drawing.Point(82, 409);
+            this.table152.Margin = new System.Windows.Forms.Padding(2);
+            this.table152.Name = "table152";
+            this.table152.Size = new System.Drawing.Size(210, 20);
+            this.table152.TabIndex = 31;
+            // 
+            // table141
+            // 
+            this.table141.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table141.Location = new System.Drawing.Point(4, 382);
+            this.table141.Margin = new System.Windows.Forms.Padding(2);
+            this.table141.Name = "table141";
+            this.table141.Size = new System.Drawing.Size(72, 20);
+            this.table141.TabIndex = 28;
+            // 
+            // table142
+            // 
+            this.table142.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table142.Location = new System.Drawing.Point(82, 382);
+            this.table142.Margin = new System.Windows.Forms.Padding(2);
+            this.table142.Name = "table142";
+            this.table142.Size = new System.Drawing.Size(210, 20);
+            this.table142.TabIndex = 29;
+            // 
+            // table131
+            // 
+            this.table131.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table131.Location = new System.Drawing.Point(4, 355);
+            this.table131.Margin = new System.Windows.Forms.Padding(2);
+            this.table131.Name = "table131";
+            this.table131.Size = new System.Drawing.Size(72, 20);
+            this.table131.TabIndex = 26;
+            // 
+            // table132
+            // 
+            this.table132.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table132.Location = new System.Drawing.Point(82, 355);
+            this.table132.Margin = new System.Windows.Forms.Padding(2);
+            this.table132.Name = "table132";
+            this.table132.Size = new System.Drawing.Size(210, 20);
+            this.table132.TabIndex = 27;
+            // 
+            // table121
+            // 
+            this.table121.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table121.Location = new System.Drawing.Point(82, 328);
+            this.table121.Margin = new System.Windows.Forms.Padding(2);
+            this.table121.Name = "table121";
+            this.table121.Size = new System.Drawing.Size(210, 20);
+            this.table121.TabIndex = 25;
+            // 
+            // table122
+            // 
+            this.table122.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table122.Location = new System.Drawing.Point(4, 328);
+            this.table122.Margin = new System.Windows.Forms.Padding(2);
+            this.table122.Name = "table122";
+            this.table122.Size = new System.Drawing.Size(72, 20);
+            this.table122.TabIndex = 24;
+            // 
+            // table111
+            // 
+            this.table111.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table111.Location = new System.Drawing.Point(4, 301);
+            this.table111.Margin = new System.Windows.Forms.Padding(2);
+            this.table111.Name = "table111";
+            this.table111.Size = new System.Drawing.Size(72, 20);
+            this.table111.TabIndex = 22;
+            // 
+            // table112
+            // 
+            this.table112.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table112.Location = new System.Drawing.Point(82, 301);
+            this.table112.Margin = new System.Windows.Forms.Padding(2);
+            this.table112.Name = "table112";
+            this.table112.Size = new System.Drawing.Size(210, 20);
+            this.table112.TabIndex = 23;
+            // 
+            // table101
+            // 
+            this.table101.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table101.Location = new System.Drawing.Point(4, 274);
+            this.table101.Margin = new System.Windows.Forms.Padding(2);
+            this.table101.Name = "table101";
+            this.table101.Size = new System.Drawing.Size(72, 20);
+            this.table101.TabIndex = 20;
+            // 
+            // table102
+            // 
+            this.table102.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table102.Location = new System.Drawing.Point(82, 274);
+            this.table102.Margin = new System.Windows.Forms.Padding(2);
+            this.table102.Name = "table102";
+            this.table102.Size = new System.Drawing.Size(210, 20);
+            this.table102.TabIndex = 21;
+            // 
+            // table91
+            // 
+            this.table91.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table91.Location = new System.Drawing.Point(4, 247);
+            this.table91.Margin = new System.Windows.Forms.Padding(2);
+            this.table91.Name = "table91";
+            this.table91.Size = new System.Drawing.Size(72, 20);
+            this.table91.TabIndex = 18;
+            // 
+            // table92
+            // 
+            this.table92.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table92.Location = new System.Drawing.Point(82, 247);
+            this.table92.Margin = new System.Windows.Forms.Padding(2);
+            this.table92.Name = "table92";
+            this.table92.Size = new System.Drawing.Size(210, 20);
+            this.table92.TabIndex = 19;
+            // 
+            // table82
+            // 
+            this.table82.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table82.Location = new System.Drawing.Point(82, 220);
+            this.table82.Margin = new System.Windows.Forms.Padding(2);
+            this.table82.Name = "table82";
+            this.table82.Size = new System.Drawing.Size(210, 20);
+            this.table82.TabIndex = 17;
+            // 
+            // table71
+            // 
+            this.table71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table71.Location = new System.Drawing.Point(4, 193);
+            this.table71.Margin = new System.Windows.Forms.Padding(2);
+            this.table71.Name = "table71";
+            this.table71.Size = new System.Drawing.Size(72, 20);
+            this.table71.TabIndex = 14;
+            // 
+            // table72
+            // 
+            this.table72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table72.Location = new System.Drawing.Point(82, 193);
+            this.table72.Margin = new System.Windows.Forms.Padding(2);
+            this.table72.Name = "table72";
+            this.table72.Size = new System.Drawing.Size(210, 20);
+            this.table72.TabIndex = 15;
+            // 
+            // table81
+            // 
+            this.table81.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table81.Location = new System.Drawing.Point(4, 220);
+            this.table81.Margin = new System.Windows.Forms.Padding(2);
+            this.table81.Name = "table81";
+            this.table81.Size = new System.Drawing.Size(72, 20);
+            this.table81.TabIndex = 16;
             // 
             // Refsum_check
             // 
@@ -338,101 +625,113 @@ namespace Cashier_Reports__end_of_shift_
             this.Refsum_check.Text = "Сумма возврата";
             this.Refsum_check.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox17
+            // table61
             // 
-            this.textBox17.Location = new System.Drawing.Point(4, 166);
-            this.textBox17.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(72, 20);
-            this.textBox17.TabIndex = 12;
+            this.table61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table61.Location = new System.Drawing.Point(4, 166);
+            this.table61.Margin = new System.Windows.Forms.Padding(2);
+            this.table61.Name = "table61";
+            this.table61.Size = new System.Drawing.Size(72, 20);
+            this.table61.TabIndex = 12;
             // 
-            // textBox18
+            // table62
             // 
-            this.textBox18.Location = new System.Drawing.Point(82, 166);
-            this.textBox18.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(210, 20);
-            this.textBox18.TabIndex = 13;
+            this.table62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table62.Location = new System.Drawing.Point(82, 166);
+            this.table62.Margin = new System.Windows.Forms.Padding(2);
+            this.table62.Name = "table62";
+            this.table62.Size = new System.Drawing.Size(210, 20);
+            this.table62.TabIndex = 13;
             // 
-            // textBox15
+            // table51
             // 
-            this.textBox15.Location = new System.Drawing.Point(4, 139);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(72, 20);
-            this.textBox15.TabIndex = 10;
+            this.table51.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table51.Location = new System.Drawing.Point(4, 139);
+            this.table51.Margin = new System.Windows.Forms.Padding(2);
+            this.table51.Name = "table51";
+            this.table51.Size = new System.Drawing.Size(72, 20);
+            this.table51.TabIndex = 10;
             // 
-            // textBox16
+            // table52
             // 
-            this.textBox16.Location = new System.Drawing.Point(82, 139);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(210, 20);
-            this.textBox16.TabIndex = 11;
+            this.table52.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table52.Location = new System.Drawing.Point(82, 139);
+            this.table52.Margin = new System.Windows.Forms.Padding(2);
+            this.table52.Name = "table52";
+            this.table52.Size = new System.Drawing.Size(210, 20);
+            this.table52.TabIndex = 11;
             // 
-            // textBox13
+            // table41
             // 
-            this.textBox13.Location = new System.Drawing.Point(4, 112);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(72, 20);
-            this.textBox13.TabIndex = 8;
+            this.table41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table41.Location = new System.Drawing.Point(4, 112);
+            this.table41.Margin = new System.Windows.Forms.Padding(2);
+            this.table41.Name = "table41";
+            this.table41.Size = new System.Drawing.Size(72, 20);
+            this.table41.TabIndex = 8;
             // 
-            // textBox14
+            // table42
             // 
-            this.textBox14.Location = new System.Drawing.Point(82, 112);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(210, 20);
-            this.textBox14.TabIndex = 9;
+            this.table42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table42.Location = new System.Drawing.Point(82, 112);
+            this.table42.Margin = new System.Windows.Forms.Padding(2);
+            this.table42.Name = "table42";
+            this.table42.Size = new System.Drawing.Size(210, 20);
+            this.table42.TabIndex = 9;
             // 
-            // textBox11
+            // table31
             // 
-            this.textBox11.Location = new System.Drawing.Point(4, 85);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(72, 20);
-            this.textBox11.TabIndex = 6;
+            this.table31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table31.Location = new System.Drawing.Point(4, 85);
+            this.table31.Margin = new System.Windows.Forms.Padding(2);
+            this.table31.Name = "table31";
+            this.table31.Size = new System.Drawing.Size(72, 20);
+            this.table31.TabIndex = 6;
             // 
-            // textBox12
+            // table32
             // 
-            this.textBox12.Location = new System.Drawing.Point(82, 85);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(210, 20);
-            this.textBox12.TabIndex = 7;
+            this.table32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table32.Location = new System.Drawing.Point(82, 85);
+            this.table32.Margin = new System.Windows.Forms.Padding(2);
+            this.table32.Name = "table32";
+            this.table32.Size = new System.Drawing.Size(210, 20);
+            this.table32.TabIndex = 7;
             // 
-            // textBox9
+            // table21
             // 
-            this.textBox9.Location = new System.Drawing.Point(4, 58);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(72, 20);
-            this.textBox9.TabIndex = 4;
+            this.table21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table21.Location = new System.Drawing.Point(4, 58);
+            this.table21.Margin = new System.Windows.Forms.Padding(2);
+            this.table21.Name = "table21";
+            this.table21.Size = new System.Drawing.Size(72, 20);
+            this.table21.TabIndex = 4;
             // 
-            // textBox10
+            // table22
             // 
-            this.textBox10.Location = new System.Drawing.Point(82, 58);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(210, 20);
-            this.textBox10.TabIndex = 5;
+            this.table22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table22.Location = new System.Drawing.Point(82, 58);
+            this.table22.Margin = new System.Windows.Forms.Padding(2);
+            this.table22.Name = "table22";
+            this.table22.Size = new System.Drawing.Size(210, 20);
+            this.table22.TabIndex = 5;
             // 
-            // textBox7
+            // table11
             // 
-            this.textBox7.Location = new System.Drawing.Point(4, 31);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(72, 20);
-            this.textBox7.TabIndex = 2;
+            this.table11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table11.Location = new System.Drawing.Point(4, 31);
+            this.table11.Margin = new System.Windows.Forms.Padding(2);
+            this.table11.Name = "table11";
+            this.table11.Size = new System.Drawing.Size(72, 20);
+            this.table11.TabIndex = 2;
             // 
-            // textBox8
+            // table12
             // 
-            this.textBox8.Location = new System.Drawing.Point(82, 31);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(210, 20);
-            this.textBox8.TabIndex = 3;
+            this.table12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table12.Location = new System.Drawing.Point(82, 31);
+            this.table12.Margin = new System.Windows.Forms.Padding(2);
+            this.table12.Name = "table12";
+            this.table12.Size = new System.Drawing.Size(210, 20);
+            this.table12.TabIndex = 3;
             // 
             // Check_num
             // 
@@ -456,6 +755,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Refundsum.Size = new System.Drawing.Size(125, 20);
             this.Refundsum.TabIndex = 6;
             this.Refundsum.Text = "0.00";
+            this.Refundsum.TextChanged += new System.EventHandler(this.Refundsum_TextChanged);
             // 
             // Refundslabel
             // 
@@ -489,6 +789,7 @@ namespace Cashier_Reports__end_of_shift_
             this.given_money_sum.Size = new System.Drawing.Size(125, 20);
             this.given_money_sum.TabIndex = 8;
             this.given_money_sum.Text = "0.00";
+            this.given_money_sum.TextChanged += new System.EventHandler(this.given_money_sum_TextChanged);
             // 
             // arrivals_group
             // 
@@ -568,245 +869,33 @@ namespace Cashier_Reports__end_of_shift_
             this.Quit.UseVisualStyleBackColor = false;
             this.Quit.Click += new System.EventHandler(this.button4_Click);
             // 
-            // textBox1
+            // table241
             // 
-            this.textBox1.Location = new System.Drawing.Point(4, 247);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(72, 20);
-            this.textBox1.TabIndex = 19;
+            this.table241.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table241.Location = new System.Drawing.Point(4, 652);
+            this.table241.Margin = new System.Windows.Forms.Padding(2);
+            this.table241.Name = "table241";
+            this.table241.Size = new System.Drawing.Size(72, 20);
+            this.table241.TabIndex = 48;
             // 
-            // textBox2
+            // table242
             // 
-            this.textBox2.Location = new System.Drawing.Point(82, 247);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(210, 20);
-            this.textBox2.TabIndex = 18;
+            this.table242.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.table242.Location = new System.Drawing.Point(82, 652);
+            this.table242.Margin = new System.Windows.Forms.Padding(2);
+            this.table242.Name = "table242";
+            this.table242.Size = new System.Drawing.Size(210, 20);
+            this.table242.TabIndex = 49;
             // 
-            // textBox3
+            // errorNumeric
             // 
-            this.textBox3.Location = new System.Drawing.Point(4, 274);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(72, 20);
-            this.textBox3.TabIndex = 21;
+            this.errorNumeric.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
+            this.errorNumeric.ContainerControl = this;
             // 
-            // textBox4
+            // errorName
             // 
-            this.textBox4.Location = new System.Drawing.Point(82, 274);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(210, 20);
-            this.textBox4.TabIndex = 20;
-            // 
-            // textBox21
-            // 
-            this.textBox21.Location = new System.Drawing.Point(4, 301);
-            this.textBox21.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(72, 20);
-            this.textBox21.TabIndex = 23;
-            // 
-            // textBox22
-            // 
-            this.textBox22.Location = new System.Drawing.Point(82, 301);
-            this.textBox22.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(210, 20);
-            this.textBox22.TabIndex = 22;
-            // 
-            // textBox23
-            // 
-            this.textBox23.Location = new System.Drawing.Point(4, 328);
-            this.textBox23.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(72, 20);
-            this.textBox23.TabIndex = 25;
-            // 
-            // textBox24
-            // 
-            this.textBox24.Location = new System.Drawing.Point(82, 328);
-            this.textBox24.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(210, 20);
-            this.textBox24.TabIndex = 24;
-            // 
-            // textBox25
-            // 
-            this.textBox25.Location = new System.Drawing.Point(4, 355);
-            this.textBox25.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(72, 20);
-            this.textBox25.TabIndex = 27;
-            // 
-            // textBox26
-            // 
-            this.textBox26.Location = new System.Drawing.Point(82, 355);
-            this.textBox26.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(210, 20);
-            this.textBox26.TabIndex = 26;
-            // 
-            // textBox27
-            // 
-            this.textBox27.Location = new System.Drawing.Point(4, 382);
-            this.textBox27.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(72, 20);
-            this.textBox27.TabIndex = 29;
-            // 
-            // textBox28
-            // 
-            this.textBox28.Location = new System.Drawing.Point(82, 382);
-            this.textBox28.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(210, 20);
-            this.textBox28.TabIndex = 28;
-            // 
-            // textBox29
-            // 
-            this.textBox29.Location = new System.Drawing.Point(4, 409);
-            this.textBox29.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(72, 20);
-            this.textBox29.TabIndex = 31;
-            // 
-            // textBox30
-            // 
-            this.textBox30.Location = new System.Drawing.Point(82, 409);
-            this.textBox30.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(210, 20);
-            this.textBox30.TabIndex = 30;
-            // 
-            // textBox31
-            // 
-            this.textBox31.Location = new System.Drawing.Point(4, 436);
-            this.textBox31.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(72, 20);
-            this.textBox31.TabIndex = 33;
-            // 
-            // textBox32
-            // 
-            this.textBox32.Location = new System.Drawing.Point(82, 436);
-            this.textBox32.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(210, 20);
-            this.textBox32.TabIndex = 32;
-            // 
-            // textBox33
-            // 
-            this.textBox33.Location = new System.Drawing.Point(4, 463);
-            this.textBox33.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(72, 20);
-            this.textBox33.TabIndex = 35;
-            // 
-            // textBox34
-            // 
-            this.textBox34.Location = new System.Drawing.Point(82, 463);
-            this.textBox34.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(210, 20);
-            this.textBox34.TabIndex = 34;
-            // 
-            // textBox35
-            // 
-            this.textBox35.Location = new System.Drawing.Point(4, 490);
-            this.textBox35.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(72, 20);
-            this.textBox35.TabIndex = 37;
-            // 
-            // textBox36
-            // 
-            this.textBox36.Location = new System.Drawing.Point(82, 490);
-            this.textBox36.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(210, 20);
-            this.textBox36.TabIndex = 36;
-            // 
-            // textBox37
-            // 
-            this.textBox37.Location = new System.Drawing.Point(4, 517);
-            this.textBox37.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(72, 20);
-            this.textBox37.TabIndex = 39;
-            // 
-            // textBox38
-            // 
-            this.textBox38.Location = new System.Drawing.Point(82, 517);
-            this.textBox38.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(210, 20);
-            this.textBox38.TabIndex = 38;
-            // 
-            // textBox39
-            // 
-            this.textBox39.Location = new System.Drawing.Point(4, 544);
-            this.textBox39.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(72, 20);
-            this.textBox39.TabIndex = 41;
-            // 
-            // textBox40
-            // 
-            this.textBox40.Location = new System.Drawing.Point(82, 544);
-            this.textBox40.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(210, 20);
-            this.textBox40.TabIndex = 40;
-            // 
-            // textBox41
-            // 
-            this.textBox41.Location = new System.Drawing.Point(4, 571);
-            this.textBox41.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(72, 20);
-            this.textBox41.TabIndex = 43;
-            // 
-            // textBox42
-            // 
-            this.textBox42.Location = new System.Drawing.Point(82, 571);
-            this.textBox42.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(210, 20);
-            this.textBox42.TabIndex = 42;
-            // 
-            // textBox43
-            // 
-            this.textBox43.Location = new System.Drawing.Point(4, 598);
-            this.textBox43.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(72, 20);
-            this.textBox43.TabIndex = 45;
-            // 
-            // textBox44
-            // 
-            this.textBox44.Location = new System.Drawing.Point(82, 598);
-            this.textBox44.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(210, 20);
-            this.textBox44.TabIndex = 44;
-            // 
-            // textBox45
-            // 
-            this.textBox45.Location = new System.Drawing.Point(4, 625);
-            this.textBox45.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(72, 20);
-            this.textBox45.TabIndex = 47;
-            // 
-            // textBox46
-            // 
-            this.textBox46.Location = new System.Drawing.Point(82, 625);
-            this.textBox46.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(210, 20);
-            this.textBox46.TabIndex = 46;
+            this.errorName.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
+            this.errorName.ContainerControl = this;
             // 
             // EOSReports
             // 
@@ -826,6 +915,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Controls.Add(this.refunds_group);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EOSReports";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Отчёты конца смены";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.refunds_group.ResumeLayout(false);
@@ -834,6 +924,8 @@ namespace Cashier_Reports__end_of_shift_
             this.Refunds.PerformLayout();
             this.arrivals_group.ResumeLayout(false);
             this.arrivals_group.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorNumeric)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorName)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -851,24 +943,24 @@ namespace Cashier_Reports__end_of_shift_
         private System.Windows.Forms.TextBox Refundsum;
         private System.Windows.Forms.Label Refundslabel;
         private System.Windows.Forms.TableLayoutPanel Refunds;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox table51;
+        private System.Windows.Forms.TextBox table52;
+        private System.Windows.Forms.TextBox table41;
+        private System.Windows.Forms.TextBox table42;
+        private System.Windows.Forms.TextBox table31;
+        private System.Windows.Forms.TextBox table32;
+        private System.Windows.Forms.TextBox table21;
+        private System.Windows.Forms.TextBox table22;
+        private System.Windows.Forms.TextBox table11;
+        private System.Windows.Forms.TextBox table12;
+        private System.Windows.Forms.TextBox table61;
+        private System.Windows.Forms.TextBox table62;
         private System.Windows.Forms.Label Check_num;
         private System.Windows.Forms.Label Refsum_check;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox table82;
+        private System.Windows.Forms.TextBox table71;
+        private System.Windows.Forms.TextBox table72;
+        private System.Windows.Forms.TextBox table81;
         private System.Windows.Forms.Label Given_mon_label;
         private System.Windows.Forms.TextBox given_money_sum;
         private System.Windows.Forms.GroupBox arrivals_group;
@@ -879,36 +971,40 @@ namespace Cashier_Reports__end_of_shift_
         private System.Windows.Forms.Button Quit;
         private System.Windows.Forms.TextBox Correct_textbox;
         private System.Windows.Forms.Label Correctlabel;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox46;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox44;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox table231;
+        private System.Windows.Forms.TextBox table232;
+        private System.Windows.Forms.TextBox table221;
+        private System.Windows.Forms.TextBox table222;
+        private System.Windows.Forms.TextBox table211;
+        private System.Windows.Forms.TextBox table212;
+        private System.Windows.Forms.TextBox table201;
+        private System.Windows.Forms.TextBox table202;
+        private System.Windows.Forms.TextBox table191;
+        private System.Windows.Forms.TextBox table192;
+        private System.Windows.Forms.TextBox table181;
+        private System.Windows.Forms.TextBox table182;
+        private System.Windows.Forms.TextBox table171;
+        private System.Windows.Forms.TextBox table172;
+        private System.Windows.Forms.TextBox table161;
+        private System.Windows.Forms.TextBox table162;
+        private System.Windows.Forms.TextBox table151;
+        private System.Windows.Forms.TextBox table152;
+        private System.Windows.Forms.TextBox table141;
+        private System.Windows.Forms.TextBox table142;
+        private System.Windows.Forms.TextBox table131;
+        private System.Windows.Forms.TextBox table132;
+        private System.Windows.Forms.TextBox table121;
+        private System.Windows.Forms.TextBox table122;
+        private System.Windows.Forms.TextBox table111;
+        private System.Windows.Forms.TextBox table112;
+        private System.Windows.Forms.TextBox table101;
+        private System.Windows.Forms.TextBox table102;
+        private System.Windows.Forms.TextBox table91;
+        private System.Windows.Forms.TextBox table92;
+        private System.Windows.Forms.TextBox table241;
+        private System.Windows.Forms.TextBox table242;
+        private System.Windows.Forms.ErrorProvider errorNumeric;
+        private System.Windows.Forms.ErrorProvider errorName;
     }
 }
 
