@@ -160,7 +160,7 @@ namespace Cashier_Reports__end_of_shift_
                     errorNumeric.SetError(CCsum, "Это поле должно содержать число.");
                 if (!char.IsNumber(str[i]))
                 {
-                    if (str[i] == '.' || str[i] == ',')
+                    if (str[i] == ',')
                     {
                         point++;
                         continue;
@@ -188,7 +188,7 @@ namespace Cashier_Reports__end_of_shift_
                     errorNumeric.SetError(Cashsum, "Это поле должно содержать число.");
                 if (!char.IsNumber(str[i]))
                 {
-                    if (str[i] == '.' || str[i] == ',')
+                    if (str[i] == ',')
                     {
                         point++;
                         continue;
@@ -217,7 +217,7 @@ namespace Cashier_Reports__end_of_shift_
                     errorNumeric.SetError(Refundsum, "Это поле должно содержать число.");
                 if (!char.IsNumber(str[i]))
                 {
-                    if (str[i] == '.' || str[i] == ',')
+                    if (str[i] == ',')
                     {
                         point++;
                         continue;
@@ -248,7 +248,7 @@ namespace Cashier_Reports__end_of_shift_
                     errorNumeric.SetError(given_money_sum, "Это поле должно содержать число.");
                 if (!char.IsNumber(str[i]))
                 {
-                    if (str[i] == '.' || str[i] == ',')
+                    if (str[i] == ',')
                     {
                         point++;
                         continue;

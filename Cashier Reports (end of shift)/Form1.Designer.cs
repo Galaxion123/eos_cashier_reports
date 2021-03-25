@@ -37,6 +37,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Cashsumlabel = new System.Windows.Forms.Label();
             this.Cashsum = new System.Windows.Forms.TextBox();
             this.refunds_group = new System.Windows.Forms.GroupBox();
+            this.Correct_result = new System.Windows.Forms.TextBox();
             this.Correct_textbox = new System.Windows.Forms.TextBox();
             this.Correctlabel = new System.Windows.Forms.Label();
             this.Refunds = new System.Windows.Forms.TableLayoutPanel();
@@ -102,7 +103,8 @@ namespace Cashier_Reports__end_of_shift_
             this.Quit = new System.Windows.Forms.Button();
             this.errorNumeric = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorName = new System.Windows.Forms.ErrorProvider(this.components);
-            this.Correct_result = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.refunds_group.SuspendLayout();
             this.Refunds.SuspendLayout();
             this.arrivals_group.SuspendLayout();
@@ -195,6 +197,18 @@ namespace Cashier_Reports__end_of_shift_
             this.refunds_group.TabIndex = 6;
             this.refunds_group.TabStop = false;
             this.refunds_group.Text = "Возвраты";
+            // 
+            // Correct_result
+            // 
+            this.Correct_result.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Correct_result.Location = new System.Drawing.Point(177, 313);
+            this.Correct_result.Margin = new System.Windows.Forms.Padding(2);
+            this.Correct_result.Name = "Correct_result";
+            this.Correct_result.ReadOnly = true;
+            this.Correct_result.Size = new System.Drawing.Size(127, 20);
+            this.Correct_result.TabIndex = 11;
+            this.Correct_result.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Correct_result.Visible = false;
             // 
             // Correct_textbox
             // 
@@ -974,23 +988,36 @@ namespace Cashier_Reports__end_of_shift_
             this.errorName.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
             this.errorName.ContainerControl = this;
             // 
-            // Correct_result
+            // label1
             // 
-            this.Correct_result.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Correct_result.Location = new System.Drawing.Point(177, 313);
-            this.Correct_result.Margin = new System.Windows.Forms.Padding(2);
-            this.Correct_result.Name = "Correct_result";
-            this.Correct_result.ReadOnly = true;
-            this.Correct_result.Size = new System.Drawing.Size(127, 20);
-            this.Correct_result.TabIndex = 11;
-            this.Correct_result.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Correct_result.Visible = false;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(487, 40);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label1.Size = new System.Drawing.Size(59, 13);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Касса №";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "2753"});
+            this.comboBox1.Location = new System.Drawing.Point(552, 37);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(125, 21);
+            this.comboBox1.TabIndex = 14;
             // 
             // EOSReports
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(707, 460);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Quit);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -1095,6 +1122,8 @@ namespace Cashier_Reports__end_of_shift_
         private System.Windows.Forms.ErrorProvider errorNumeric;
         private System.Windows.Forms.ErrorProvider errorName;
         private System.Windows.Forms.TextBox Correct_result;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
