@@ -30,6 +30,7 @@ namespace Cashier_Reports__end_of_shift_
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EOSReports));
             this.Cashier_name = new System.Windows.Forms.TextBox();
             this.Cashiername = new System.Windows.Forms.Label();
             this.Sumlabel = new System.Windows.Forms.Label();
@@ -1121,6 +1122,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Controls.Add(this.Cashier_name);
             this.Controls.Add(this.refunds_group);
             this.HelpButton = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EOSReports";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

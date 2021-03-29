@@ -17,6 +17,7 @@ namespace Cashier_Reports__end_of_shift_
     {
         public EOSReports()
         {
+            //Icon by FatCow Web Hosting
             InitializeComponent();
             check_refunds();
         }
