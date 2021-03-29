@@ -214,16 +214,31 @@ namespace Cashier_Reports__end_of_shift_
                         xlAct1.Cells[13, "X"] = Cashier_name.Text;
                         xlAct1.Cells[55, "P"] = Cashier_name.Text;
                         xlAct1.Cells[38, "Q"] = Refundsum.Text;
+                        for (int c = 30; c <= 37; c++)
+                        {
+                            xlAct1.Cells[c, "L"] = "";
+                            xlAct1.Cells[c, "Q"] = "";
+                        }
 
                         xlAct2.Cells[10, "X"] = comboBox1.Text;
                         xlAct2.Cells[13, "X"] = Cashier_name.Text;
                         xlAct2.Cells[55, "P"] = Cashier_name.Text;
                         xlAct2.Cells[38, "Q"] = Refundsum.Text;
+                        for (int c = 30; c <= 37; c++)
+                        {
+                            xlAct2.Cells[c, "L"] = "";
+                            xlAct2.Cells[c, "Q"] = "";
+                        }
 
                         xlAct3.Cells[10, "X"] = comboBox1.Text;
                         xlAct3.Cells[13, "X"] = Cashier_name.Text;
                         xlAct3.Cells[55, "P"] = Cashier_name.Text;
                         xlAct3.Cells[38, "Q"] = Refundsum.Text;
+                        for (int c = 30; c <= 37; c++)
+                        {
+                            xlAct3.Cells[c, "L"] = "";
+                            xlAct3.Cells[c, "Q"] = "";
+                        }
 
                         string[] num = new string[] { table11.Text, table21.Text, table31.Text, table41.Text, table51.Text, table61.Text, table71.Text, table81.Text, table91.Text, table101.Text, table111.Text, table121.Text, table131.Text, table141.Text, table151.Text, table161.Text, table171.Text, table181.Text, table191.Text, table201.Text, table211.Text, table221.Text, table231.Text, table241.Text };
                         string[] Ref = new string[] { table12.Text, table22.Text, table32.Text, table42.Text, table52.Text, table62.Text, table72.Text, table82.Text, table92.Text, table102.Text, table112.Text, table122.Text, table132.Text, table142.Text, table152.Text, table162.Text, table172.Text, table182.Text, table192.Text, table202.Text, table212.Text, table222.Text, table232.Text, table242.Text };
@@ -371,16 +386,31 @@ namespace Cashier_Reports__end_of_shift_
                         xlAct1.Cells[13, "X"] = Cashier_name.Text;
                         xlAct1.Cells[55, "P"] = Cashier_name.Text;
                         xlAct1.Cells[38, "Q"] = Refundsum.Text;
+                        for (int c = 30; c <= 37; c++)
+                        {
+                            xlAct1.Cells[c, "L"] = "";
+                            xlAct1.Cells[c, "Q"] = "";
+                        }
 
                         xlAct2.Cells[10, "X"] = comboBox1.Text;
                         xlAct2.Cells[13, "X"] = Cashier_name.Text;
                         xlAct2.Cells[55, "P"] = Cashier_name.Text;
                         xlAct2.Cells[38, "Q"] = Refundsum.Text;
+                        for ( int c = 30; c <= 37; c++)
+                        {
+                            xlAct2.Cells[c, "L"] = "";
+                            xlAct1.Cells[c, "Q"] = "";
+                        }
 
                         xlAct3.Cells[10, "X"] = comboBox1.Text;
                         xlAct3.Cells[13, "X"] = Cashier_name.Text;
                         xlAct3.Cells[55, "P"] = Cashier_name.Text;
                         xlAct3.Cells[38, "Q"] = Refundsum.Text;
+                        for (int c = 30; c <= 37; c++)
+                        {
+                            xlAct3.Cells[c, "L"] = "";
+                            xlAct1.Cells[c, "Q"] = "";
+                        }
 
                         string[] num = new string[] { table11.Text, table21.Text, table31.Text, table41.Text, table51.Text, table61.Text, table71.Text, table81.Text, table91.Text, table101.Text, table111.Text, table121.Text, table131.Text, table141.Text, table151.Text, table161.Text, table171.Text, table181.Text, table191.Text, table201.Text, table211.Text, table221.Text, table231.Text, table241.Text };
                         string[] Ref = new string[] { table12.Text, table22.Text, table32.Text, table42.Text, table52.Text, table62.Text, table72.Text, table82.Text, table92.Text, table102.Text, table112.Text, table122.Text, table132.Text, table142.Text, table152.Text, table162.Text, table172.Text, table182.Text, table192.Text, table202.Text, table212.Text, table222.Text, table232.Text, table242.Text };
