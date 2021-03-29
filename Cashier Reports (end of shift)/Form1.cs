@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Excel = Microsoft.Office.Interop.Excel;
+using System.Diagnostics;
 
 namespace Cashier_Reports__end_of_shift_
 {
@@ -145,6 +146,7 @@ namespace Cashier_Reports__end_of_shift_
             else
             {
                 var Reports = Path.Combine(Directory.GetCurrentDirectory(), "Reports.xls");
+                var SumString = Path.Combine(Directory.GetCurrentDirectory(), "SumString.xla");
                 string CC = "Кредитные карты";
                 string cash = "Инкассация";
                 string refund = "Возврат";
@@ -164,6 +166,7 @@ namespace Cashier_Reports__end_of_shift_
                 else
                 {
                     Excel.Workbook xlRepworkbook = xlRep.Workbooks.Open(Reports);
+                    xlRep.Workbooks.Open(SumString);
 
                     Excel.Sheets xlRepsheets = xlRepworkbook.Worksheets;
                     Excel.Worksheet xlCC = (Excel.Worksheet)xlRepsheets.get_Item(CC);
@@ -313,6 +316,7 @@ namespace Cashier_Reports__end_of_shift_
             else
             {
                 var Reports = Path.Combine(Directory.GetCurrentDirectory(), "Reports.xls");
+                var SumString = Path.Combine(Directory.GetCurrentDirectory(), "SumString.xla");
                 string CC = "Кредитные карты";
                 string cash = "Инкассация";
                 string refund = "Возврат";
@@ -332,6 +336,7 @@ namespace Cashier_Reports__end_of_shift_
                 else
                 {
                     Excel.Workbook xlRepworkbook = xlRep.Workbooks.Open(Reports);
+                    xlRep.Workbooks.Open(SumString);
 
                     Excel.Sheets xlRepsheets = xlRepworkbook.Worksheets;
                     Excel.Worksheet xlCC = (Excel.Worksheet)xlRepsheets.get_Item(CC);

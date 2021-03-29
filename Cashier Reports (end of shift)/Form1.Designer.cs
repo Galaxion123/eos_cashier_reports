@@ -37,6 +37,10 @@ namespace Cashier_Reports__end_of_shift_
             this.Cashsumlabel = new System.Windows.Forms.Label();
             this.Cashsum = new System.Windows.Forms.TextBox();
             this.refunds_group = new System.Windows.Forms.GroupBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.Correct_result = new System.Windows.Forms.TextBox();
             this.Correct_textbox = new System.Windows.Forms.TextBox();
             this.Correctlabel = new System.Windows.Forms.Label();
@@ -105,10 +109,6 @@ namespace Cashier_Reports__end_of_shift_
             this.errorName = new System.Windows.Forms.ErrorProvider(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.refunds_group.SuspendLayout();
@@ -207,6 +207,52 @@ namespace Cashier_Reports__end_of_shift_
             this.refunds_group.TabIndex = 6;
             this.refunds_group.TabStop = false;
             this.refunds_group.Text = "Возвраты";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox2.Location = new System.Drawing.Point(170, 57);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(125, 20);
+            this.textBox2.TabIndex = 6;
+            this.textBox2.Text = "0,00";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox1.Location = new System.Drawing.Point(170, 29);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(125, 20);
+            this.textBox1.TabIndex = 5;
+            this.textBox1.Text = "0,00";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(29, 60);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(135, 13);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Возвраты наличными";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(75, 32);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(89, 13);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Возвраты к/к";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Correct_result
             // 
@@ -921,7 +967,7 @@ namespace Cashier_Reports__end_of_shift_
             this.arrivals_group.Margin = new System.Windows.Forms.Padding(2);
             this.arrivals_group.Name = "arrivals_group";
             this.arrivals_group.Padding = new System.Windows.Forms.Padding(2);
-            this.arrivals_group.Size = new System.Drawing.Size(343, 83);
+            this.arrivals_group.Size = new System.Drawing.Size(332, 83);
             this.arrivals_group.TabIndex = 9;
             this.arrivals_group.TabStop = false;
             this.arrivals_group.Text = "Приходный кассовый ордер";
@@ -967,7 +1013,7 @@ namespace Cashier_Reports__end_of_shift_
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(415, 348);
+            this.button3.Location = new System.Drawing.Point(415, 347);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(234, 40);
@@ -980,7 +1026,7 @@ namespace Cashier_Reports__end_of_shift_
             // 
             this.Quit.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Quit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Quit.Location = new System.Drawing.Point(415, 422);
+            this.Quit.Location = new System.Drawing.Point(415, 420);
             this.Quit.Margin = new System.Windows.Forms.Padding(2);
             this.Quit.Name = "Quit";
             this.Quit.Size = new System.Drawing.Size(234, 40);
@@ -1032,52 +1078,6 @@ namespace Cashier_Reports__end_of_shift_
             this.comboBox1.Size = new System.Drawing.Size(125, 21);
             this.comboBox1.TabIndex = 2;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(75, 32);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Возвраты к/к";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(29, 60);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 13);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Возвраты наличными";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(170, 29);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 20);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "0,00";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(170, 57);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(125, 20);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.Text = "0,00";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -1104,7 +1104,7 @@ namespace Cashier_Reports__end_of_shift_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(707, 536);
+            this.ClientSize = new System.Drawing.Size(692, 536);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.comboBox1);
@@ -1120,10 +1120,11 @@ namespace Cashier_Reports__end_of_shift_
             this.Controls.Add(this.Cashiername);
             this.Controls.Add(this.Cashier_name);
             this.Controls.Add(this.refunds_group);
+            this.HelpButton = true;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EOSReports";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Отчёты конца смены";
+            this.Text = "Отчёты конца смены - v.1.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.refunds_group.ResumeLayout(false);
             this.refunds_group.PerformLayout();
