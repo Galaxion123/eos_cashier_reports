@@ -112,22 +112,45 @@ namespace Cashier_Reports__end_of_shift_
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.refunds_group.SuspendLayout();
             this.Refunds.SuspendLayout();
             this.arrivals_group.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorNumeric)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorName)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // Cashier_name
             // 
             this.Cashier_name.BackColor = System.Drawing.Color.White;
-            this.Cashier_name.Location = new System.Drawing.Point(352, 11);
+            this.Cashier_name.Location = new System.Drawing.Point(344, 23);
             this.Cashier_name.Margin = new System.Windows.Forms.Padding(2);
             this.Cashier_name.Name = "Cashier_name";
             this.Cashier_name.Size = new System.Drawing.Size(125, 20);
             this.Cashier_name.TabIndex = 0;
-            this.Cashier_name.Text = "Фамилия И.О.";
+            this.Cashier_name.Text = global::Cashier_Reports__end_of_shift_.Properties.Settings.Default.Cashier_name;
             this.Cashier_name.TextChanged += new System.EventHandler(this.Cashier_name_TextChanged);
             // 
             // Cashiername
@@ -136,7 +159,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Cashiername.BackColor = System.Drawing.Color.Transparent;
             this.Cashiername.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cashiername.ForeColor = System.Drawing.Color.Black;
-            this.Cashiername.Location = new System.Drawing.Point(296, 14);
+            this.Cashiername.Location = new System.Drawing.Point(288, 26);
             this.Cashiername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Cashiername.Name = "Cashiername";
             this.Cashiername.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -152,7 +175,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Sumlabel.BackColor = System.Drawing.Color.Transparent;
             this.Sumlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sumlabel.ForeColor = System.Drawing.Color.Black;
-            this.Sumlabel.Location = new System.Drawing.Point(33, 44);
+            this.Sumlabel.Location = new System.Drawing.Point(25, 56);
             this.Sumlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Sumlabel.Name = "Sumlabel";
             this.Sumlabel.Size = new System.Drawing.Size(315, 13);
@@ -163,7 +186,7 @@ namespace Cashier_Reports__end_of_shift_
             // CCsum
             // 
             this.CCsum.BackColor = System.Drawing.Color.White;
-            this.CCsum.Location = new System.Drawing.Point(352, 41);
+            this.CCsum.Location = new System.Drawing.Point(344, 53);
             this.CCsum.Margin = new System.Windows.Forms.Padding(2);
             this.CCsum.Name = "CCsum";
             this.CCsum.Size = new System.Drawing.Size(125, 20);
@@ -177,7 +200,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Cashsumlabel.BackColor = System.Drawing.Color.Transparent;
             this.Cashsumlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cashsumlabel.ForeColor = System.Drawing.Color.Black;
-            this.Cashsumlabel.Location = new System.Drawing.Point(166, 74);
+            this.Cashsumlabel.Location = new System.Drawing.Point(158, 86);
             this.Cashsumlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Cashsumlabel.Name = "Cashsumlabel";
             this.Cashsumlabel.Size = new System.Drawing.Size(180, 13);
@@ -188,7 +211,7 @@ namespace Cashier_Reports__end_of_shift_
             // Cashsum
             // 
             this.Cashsum.BackColor = System.Drawing.Color.White;
-            this.Cashsum.Location = new System.Drawing.Point(352, 71);
+            this.Cashsum.Location = new System.Drawing.Point(344, 83);
             this.Cashsum.Margin = new System.Windows.Forms.Padding(2);
             this.Cashsum.Name = "Cashsum";
             this.Cashsum.Size = new System.Drawing.Size(125, 20);
@@ -198,7 +221,7 @@ namespace Cashier_Reports__end_of_shift_
             // 
             // refunds_group
             // 
-            this.refunds_group.BackColor = System.Drawing.Color.Transparent;
+            this.refunds_group.BackColor = System.Drawing.SystemColors.ControlDark;
             this.refunds_group.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.refunds_group.Controls.Add(this.textBox2);
             this.refunds_group.Controls.Add(this.textBox1);
@@ -212,7 +235,7 @@ namespace Cashier_Reports__end_of_shift_
             this.refunds_group.Controls.Add(this.Refundslabel);
             this.refunds_group.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.refunds_group.ForeColor = System.Drawing.Color.Black;
-            this.refunds_group.Location = new System.Drawing.Point(18, 122);
+            this.refunds_group.Location = new System.Drawing.Point(10, 134);
             this.refunds_group.Margin = new System.Windows.Forms.Padding(2);
             this.refunds_group.Name = "refunds_group";
             this.refunds_group.Padding = new System.Windows.Forms.Padding(2);
@@ -300,6 +323,7 @@ namespace Cashier_Reports__end_of_shift_
             // Correctlabel
             // 
             this.Correctlabel.AutoSize = true;
+            this.Correctlabel.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Correctlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Correctlabel.Location = new System.Drawing.Point(53, 406);
             this.Correctlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -313,6 +337,7 @@ namespace Cashier_Reports__end_of_shift_
             // 
             this.Refunds.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.Refunds.AutoScroll = true;
+            this.Refunds.BackColor = System.Drawing.SystemColors.Control;
             this.Refunds.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
             this.Refunds.ColumnCount = 2;
             this.Refunds.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.52461F));
@@ -980,7 +1005,7 @@ namespace Cashier_Reports__end_of_shift_
             // 
             // arrivals_group
             // 
-            this.arrivals_group.BackColor = System.Drawing.Color.Transparent;
+            this.arrivals_group.BackColor = System.Drawing.SystemColors.ControlDark;
             this.arrivals_group.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.arrivals_group.Controls.Add(this.receptor_label);
             this.arrivals_group.Controls.Add(this.receptor_name);
@@ -988,7 +1013,7 @@ namespace Cashier_Reports__end_of_shift_
             this.arrivals_group.Controls.Add(this.Given_mon_label);
             this.arrivals_group.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.arrivals_group.ForeColor = System.Drawing.Color.Black;
-            this.arrivals_group.Location = new System.Drawing.Point(415, 122);
+            this.arrivals_group.Location = new System.Drawing.Point(407, 134);
             this.arrivals_group.Margin = new System.Windows.Forms.Padding(2);
             this.arrivals_group.Name = "arrivals_group";
             this.arrivals_group.Padding = new System.Windows.Forms.Padding(2);
@@ -1028,7 +1053,7 @@ namespace Cashier_Reports__end_of_shift_
             this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(453, 311);
+            this.button2.Location = new System.Drawing.Point(445, 323);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(245, 40);
@@ -1042,7 +1067,7 @@ namespace Cashier_Reports__end_of_shift_
             this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(453, 384);
+            this.button3.Location = new System.Drawing.Point(445, 396);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(245, 40);
@@ -1056,7 +1081,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Quit.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Quit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Quit.ForeColor = System.Drawing.Color.Black;
-            this.Quit.Location = new System.Drawing.Point(453, 457);
+            this.Quit.Location = new System.Drawing.Point(445, 469);
             this.Quit.Margin = new System.Windows.Forms.Padding(2);
             this.Quit.Name = "Quit";
             this.Quit.Size = new System.Drawing.Size(245, 40);
@@ -1081,7 +1106,7 @@ namespace Cashier_Reports__end_of_shift_
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(510, 44);
+            this.label1.Location = new System.Drawing.Point(502, 56);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1106,10 +1131,12 @@ namespace Cashier_Reports__end_of_shift_
             "31211",
             "28598",
             "33427"});
-            this.comboBox1.Location = new System.Drawing.Point(573, 41);
+            this.comboBox1.Location = new System.Drawing.Point(565, 53);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(125, 21);
             this.comboBox1.TabIndex = 2;
+            this.comboBox1.Text = global::Cashier_Reports__end_of_shift_.Properties.Settings.Default.Cashier;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -1117,7 +1144,7 @@ namespace Cashier_Reports__end_of_shift_
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(497, 13);
+            this.label4.Location = new System.Drawing.Point(489, 25);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1129,35 +1156,268 @@ namespace Cashier_Reports__end_of_shift_
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(573, 11);
+            this.textBox3.Location = new System.Drawing.Point(565, 23);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(63, 20);
             this.textBox3.TabIndex = 1;
+            this.textBox3.Text = global::Cashier_Reports__end_of_shift_.Properties.Settings.Default.Cashier_number;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Location = new System.Drawing.Point(3, 2);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(751, 597);
+            this.tabControl1.TabIndex = 15;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.tabPage1.Controls.Add(this.Cashier_name);
+            this.tabPage1.Controls.Add(this.textBox3);
+            this.tabPage1.Controls.Add(this.refunds_group);
+            this.tabPage1.Controls.Add(this.label4);
+            this.tabPage1.Controls.Add(this.Cashiername);
+            this.tabPage1.Controls.Add(this.comboBox1);
+            this.tabPage1.Controls.Add(this.Sumlabel);
+            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Controls.Add(this.CCsum);
+            this.tabPage1.Controls.Add(this.Quit);
+            this.tabPage1.Controls.Add(this.Cashsumlabel);
+            this.tabPage1.Controls.Add(this.button3);
+            this.tabPage1.Controls.Add(this.Cashsum);
+            this.tabPage1.Controls.Add(this.button2);
+            this.tabPage1.Controls.Add(this.arrivals_group);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(743, 571);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Отчёты";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.tabPage2.Controls.Add(this.button5);
+            this.tabPage2.Controls.Add(this.button4);
+            this.tabPage2.Controls.Add(this.button1);
+            this.tabPage2.Controls.Add(this.groupBox2);
+            this.tabPage2.Controls.Add(this.groupBox1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(743, 571);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Настройки";
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Location = new System.Drawing.Point(374, 257);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(98, 27);
+            this.button5.TabIndex = 15;
+            this.button5.Text = "Назад";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(259, 257);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(98, 27);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "ОК";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(144, 257);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 27);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Применить";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBox2.Location = new System.Drawing.Point(9, 132);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(463, 120);
+            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Касса по умолчанию";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
+            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox2.BackColor = System.Drawing.Color.White;
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "60943",
+            "56355",
+            "4351",
+            "2753",
+            "25016",
+            "16723",
+            "31211",
+            "28598",
+            "33427"});
+            this.comboBox2.Location = new System.Drawing.Point(117, 50);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(125, 21);
+            this.comboBox2.TabIndex = 14;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(54, 53);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label7.Size = new System.Drawing.Size(59, 13);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Касса №";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBox1.Location = new System.Drawing.Point(9, 6);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(463, 120);
+            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Кассир по умолчанию";
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.White;
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox4.Location = new System.Drawing.Point(108, 50);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(125, 20);
+            this.textBox4.TabIndex = 15;
+            this.textBox4.Text = this.Cashier_name.Text;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.White;
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox5.Location = new System.Drawing.Point(338, 50);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(63, 20);
+            this.textBox5.TabIndex = 16;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(262, 52);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label6.Size = new System.Drawing.Size(72, 13);
+            this.label6.TabIndex = 18;
+            this.label6.Text = "№ кассира";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(54, 52);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label9.Size = new System.Drawing.Size(50, 13);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "Кассир";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.button6);
+            this.tabPage3.Controls.Add(this.label5);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(743, 571);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Помощь";
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.Location = new System.Drawing.Point(640, 538);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(98, 27);
+            this.button6.TabIndex = 14;
+            this.button6.Text = "Назад";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(6, 23);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(636, 130);
+            this.label5.TabIndex = 0;
+            this.label5.Text = resources.GetString("label5.Text");
             // 
             // EOSReports
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(741, 557);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.Quit);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.arrivals_group);
-            this.Controls.Add(this.Cashsum);
-            this.Controls.Add(this.Cashsumlabel);
-            this.Controls.Add(this.CCsum);
-            this.Controls.Add(this.Sumlabel);
-            this.Controls.Add(this.Cashiername);
-            this.Controls.Add(this.Cashier_name);
-            this.Controls.Add(this.refunds_group);
+            this.ClientSize = new System.Drawing.Size(757, 600);
+            this.Controls.Add(this.tabControl1);
             this.DoubleBuffered = true;
             this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -1174,8 +1434,17 @@ namespace Cashier_Reports__end_of_shift_
             this.arrivals_group.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorNumeric)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorName)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1262,6 +1531,23 @@ namespace Cashier_Reports__end_of_shift_
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
     }
 }
 

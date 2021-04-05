@@ -22,5 +22,41 @@ namespace Cashier_Reports__end_of_shift_.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Фамилия И.О.")]
+        public string Cashier_name {
+            get {
+                return ((string)(this["Cashier_name"]));
+            }
+            set {
+                this["Cashier_name"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Cashier_number {
+            get {
+                return ((string)(this["Cashier_number"]));
+            }
+            set {
+                this["Cashier_number"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Cashier {
+            get {
+                return ((string)(this["Cashier"]));
+            }
+            set {
+                this["Cashier"] = value;
+            }
+        }
     }
 }

@@ -521,6 +521,7 @@ namespace Cashier_Reports__end_of_shift_
                         errorName.SetError(Cashier_name, "");
                         button2.Enabled = true;
                         button3.Enabled = true;
+                        textBox4.Text = Cashier_name.Text;
                     }
                 }
             }
@@ -1095,9 +1096,110 @@ namespace Cashier_Reports__end_of_shift_
                     errorNumeric.SetError(textBox3, "");
                     button2.Enabled = true;
                     button3.Enabled = true;
+                    textBox5.Text = textBox3.Text;
                     check_refunds();
                 }
             }
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            string str = textBox4.Text;
+            if (str.Trim().Length == 0)
+            {
+                errorName.SetError(textBox4, "Это поле не должно быть пустым. Укажите фамилию кассира.");
+                button1.Enabled = false;
+                button4.Enabled = false;
+            }
+            else
+            {
+                for (int i = 0; i < str.Length; i++)
+                {
+                    if (char.IsNumber(str[i]))
+                    {
+                        errorName.SetError(textBox4, "Это поле должно содержать только буквы, в соответствии со структурой Фамилия И.О.");
+                        button1.Enabled = false;
+                        button4.Enabled = false;
+                        break;
+                    }
+                    else
+                    {
+                        errorName.SetError(textBox4, "");
+                        button1.Enabled = true;
+                        button4.Enabled = true;
+                    }
+                }
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.Cashier_name = textBox4.Text;
+            Cashier_name.Text = textBox4.Text;
+            Properties.Settings.Default.Cashier_number = textBox5.Text;
+            textBox3.Text = textBox5.Text;
+            Properties.Settings.Default.Cashier = comboBox2.Text;
+            comboBox1.Text = comboBox2.Text;
+            Properties.Settings.Default.Save();
+            button1.Enabled = false;
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+            string str = textBox5.Text;
+
+            if (str.Trim().Length == 0)
+            {
+                errorNumeric.SetError(textBox5, "Это поле не должно быть пустым.");
+                button1.Enabled = false;
+                button4.Enabled = false;
+            }
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (!char.IsNumber(str[i]))
+                {
+                    errorNumeric.SetError(textBox5, "Это поле должно содержать число.");
+                    button1.Enabled = false;
+                    button4.Enabled = false;
+                    break;
+                }
+                else
+                {
+                    errorNumeric.SetError(textBox5, "");
+                    button1.Enabled = true;
+                    button4.Enabled = true;
+                    check_refunds();
+                }
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBox2.Text = comboBox1.Text;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage1;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage1;
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.Cashier_name = textBox4.Text;
+            Properties.Settings.Default.Cashier_number = textBox5.Text;
+            Properties.Settings.Default.Cashier = comboBox2.Text;
+            Properties.Settings.Default.Save();
+            tabControl1.SelectedTab = tabPage1;
         }
     }
 }
