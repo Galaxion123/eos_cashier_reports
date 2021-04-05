@@ -1424,7 +1424,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EOSReports";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Отчёты конца смены - v.1.0";
+            this.Text = "Отчёты конца смены - v.1.5";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.refunds_group.ResumeLayout(false);
             this.refunds_group.PerformLayout();
