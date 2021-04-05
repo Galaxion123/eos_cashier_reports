@@ -153,6 +153,7 @@ namespace Cashier_Reports__end_of_shift_
                 string Act2 = "Акт Возврат (2 лист)";
                 string Act3 = "Акт Возврат (3 лист)";
                 string Pri = "Приходник";
+                string Pri2 = "Приходник (2 лист)";
 
                 Excel.Application xlRep = new Excel.Application();
                 xlRep.Visible = false;
@@ -175,6 +176,7 @@ namespace Cashier_Reports__end_of_shift_
                     Excel.Worksheet xlAct2 = (Excel.Worksheet)xlRepsheets.get_Item(Act2);
                     Excel.Worksheet xlAct3 = (Excel.Worksheet)xlRepsheets.get_Item(Act3);
                     Excel.Worksheet xlPri = (Excel.Worksheet)xlRepsheets.get_Item(Pri);
+                    Excel.Worksheet xlPri2 = (Excel.Worksheet)xlRepsheets.get_Item(Pri2);
 
                     Double.TryParse(CCsum.Text, out double creditcards);
 
@@ -308,6 +310,13 @@ namespace Cashier_Reports__end_of_shift_
                         xlPri.Cells[23, "I"] = Cashier_name.Text;
                         xlPri.Cells[36, "Z"] = receptor_name.Text;
                         xlPri.PrintOutEx();
+
+                        xlPri2.Cells[8, "BA"] = comboBox1.Text;
+                        xlPri2.Cells[20, "E"] = textBox3.Text;
+                        xlPri2.Cells[20, "AO"] = given_money_sum.Text;
+                        xlPri2.Cells[54, "Y"] = Cashier_name.Text;
+                        xlPri2.Cells[22, "F"] = receptor_name.Text;
+                        xlPri2.PrintOutEx();
                     }
 
                     xlRepworkbook.Close(false);
@@ -338,6 +347,7 @@ namespace Cashier_Reports__end_of_shift_
                 string Act2 = "Акт Возврат (2 лист)";
                 string Act3 = "Акт Возврат (3 лист)";
                 string Pri = "Приходник";
+                string Pri2 = "Приходник (2 лист)";
 
                 Excel.Application xlRep = new Excel.Application();
                 xlRep.Visible = true;
@@ -360,6 +370,7 @@ namespace Cashier_Reports__end_of_shift_
                     Excel.Worksheet xlAct2 = (Excel.Worksheet)xlRepsheets.get_Item(Act2);
                     Excel.Worksheet xlAct3 = (Excel.Worksheet)xlRepsheets.get_Item(Act3);
                     Excel.Worksheet xlPri = (Excel.Worksheet)xlRepsheets.get_Item(Pri);
+                    Excel.Worksheet xlPri2 = (Excel.Worksheet)xlRepsheets.get_Item(Pri2);
 
                     xlCC.Cells[8, "BA"] = comboBox1.Text;
                     xlCC.Cells[20, "E"] = textBox3.Text;
@@ -467,6 +478,12 @@ namespace Cashier_Reports__end_of_shift_
                         xlPri.Cells[21, "AM"] = given_money_sum.Text;
                         xlPri.Cells[23, "I"] = Cashier_name.Text;
                         xlPri.Cells[36, "Z"] = receptor_name.Text;
+
+                        xlPri2.Cells[8, "BA"] = comboBox1.Text;
+                        xlPri2.Cells[20, "E"] = textBox3.Text;
+                        xlPri2.Cells[20, "AO"] = given_money_sum.Text;
+                        xlPri2.Cells[54, "Y"] = Cashier_name.Text;
+                        xlPri2.Cells[22, "F"] = receptor_name.Text;
                     }
 
                     xlCC.Activate();
