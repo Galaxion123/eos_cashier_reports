@@ -103,7 +103,31 @@ namespace Cashier_Reports__end_of_shift_
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            if (Properties.Settings.Default.Checkbox == true)
+                checkBox1.Checked = true;
+            else
+                checkBox1.Checked = false;
+            Login login_window = new Login();
+            New_user user_window = new New_user();
+            if (login_window.ShowDialog() == DialogResult.No)
+            {
+                if (user_window.ShowDialog() == DialogResult.OK)
+                {
+                    Cashier_name.Text = "";
+                    textBox3.Text = "";
+                    comboBox1.Text = "";
+                }
+                else
+                {
+                    Cashier_name.Text = "Фамилия И. О.";
+                    textBox3.Text = "";
+                    comboBox1.Text = "";
+                }
+            }
+            else
+            {
+               
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -1132,6 +1156,100 @@ namespace Cashier_Reports__end_of_shift_
             }
         }
 
+        private void Change_forecolors_to_black()
+        {
+            Cashiername.ForeColor = Color.Black;
+            Sumlabel.ForeColor = Color.Black;
+            Cashsumlabel.ForeColor = Color.Black;
+            label4.ForeColor = Color.Black;
+            label1.ForeColor = Color.Black;
+            label2.ForeColor = Color.Black;
+            label3.ForeColor = Color.Black;
+            Refundslabel.ForeColor = Color.Black;
+            Given_mon_label.ForeColor = Color.Black;
+            receptor_label.ForeColor = Color.Black;
+            Correctlabel.ForeColor = Color.Black;
+            label5.ForeColor = Color.Black;
+            label9.ForeColor = Color.Black;
+            label6.ForeColor = Color.Black;
+            label7.ForeColor = Color.Black;
+            checkBox1.ForeColor = Color.Black;
+            refunds_group.ForeColor = Color.Black;
+            arrivals_group.ForeColor = Color.Black;
+            groupBox1.ForeColor = Color.Black;
+            groupBox2.ForeColor = Color.Black;
+            groupBox3.ForeColor = Color.Black;
+            Check_num.ForeColor = Color.Black;
+            Refsum_check.ForeColor = Color.Black;
+            button1.ForeColor = Color.Black;
+            button2.ForeColor = Color.Black;
+            button3.ForeColor = Color.Black;
+            button4.ForeColor = Color.Black;
+            button5.ForeColor = Color.Black;
+            button6.ForeColor = Color.Black;
+            Quit.ForeColor = Color.Black;
+            button1.BackColor = SystemColors.ButtonHighlight;
+            button2.BackColor = SystemColors.ButtonHighlight;
+            button3.BackColor = SystemColors.ButtonHighlight;
+            button4.BackColor = SystemColors.ButtonHighlight;
+            button5.BackColor = SystemColors.ButtonHighlight;
+            button6.BackColor = SystemColors.ButtonHighlight;
+            Quit.BackColor = SystemColors.ButtonHighlight;
+            refunds_group.BackColor = SystemColors.Control;
+            arrivals_group.BackColor = SystemColors.Control;
+            groupBox1.BackColor = SystemColors.Control;
+            groupBox2.BackColor = SystemColors.Control;
+            groupBox3.BackColor = SystemColors.Control;
+            Refunds.BackColor = SystemColors.Control;
+        }
+
+        private void Change_forecolors_to_white()
+        {
+            Cashiername.ForeColor = Color.White;
+            Sumlabel.ForeColor = Color.White;
+            Cashsumlabel.ForeColor = Color.White;
+            label4.ForeColor = Color.White;
+            label1.ForeColor = Color.White;
+            label2.ForeColor = Color.White;
+            label3.ForeColor = Color.White;
+            Refundslabel.ForeColor = Color.White;
+            Given_mon_label.ForeColor = Color.White;
+            receptor_label.ForeColor = Color.White;
+            Correctlabel.ForeColor = Color.White;
+            label5.ForeColor = Color.White;
+            label6.ForeColor = Color.White;
+            label7.ForeColor = Color.White;
+            label9.ForeColor = Color.White;
+            checkBox1.ForeColor = Color.White;
+            refunds_group.ForeColor = Color.White;
+            arrivals_group.ForeColor = Color.White;
+            groupBox1.ForeColor = Color.White;
+            groupBox2.ForeColor = Color.White;
+            groupBox3.ForeColor = Color.White;
+            Check_num.ForeColor = Color.White;
+            Refsum_check.ForeColor = Color.White;
+            button1.ForeColor = Color.White;
+            button2.ForeColor = Color.White;
+            button3.ForeColor = Color.White;
+            button4.ForeColor = Color.White;
+            button5.ForeColor = Color.White;
+            button6.ForeColor = Color.White;
+            Quit.ForeColor = Color.White;
+            button1.BackColor = Color.Black;
+            button2.BackColor = Color.Black;
+            button3.BackColor = Color.Black;
+            button4.BackColor = Color.Black;
+            button5.BackColor = Color.Black;
+            button6.BackColor = Color.Black;
+            Quit.BackColor = Color.Black;
+            refunds_group.BackColor = SystemColors.ControlDarkDark;
+            arrivals_group.BackColor = SystemColors.ControlDarkDark;
+            groupBox1.BackColor = SystemColors.ControlDarkDark;
+            groupBox2.BackColor = SystemColors.ControlDarkDark;
+            groupBox3.BackColor = SystemColors.ControlDarkDark;
+            Refunds.BackColor = SystemColors.ControlDarkDark;
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Properties.Settings.Default.Cashier_name = textBox4.Text;
@@ -1140,6 +1258,30 @@ namespace Cashier_Reports__end_of_shift_
             textBox3.Text = textBox5.Text;
             Properties.Settings.Default.Cashier = comboBox2.Text;
             comboBox1.Text = comboBox2.Text;
+            if (checkBox1.Checked == true)
+            {
+                this.BackColor = SystemColors.ControlDarkDark;
+                tabPage1.BackColor = SystemColors.ControlDarkDark;
+                tabPage2.BackColor = SystemColors.ControlDarkDark;
+                tabPage3.BackColor = SystemColors.ControlDarkDark;
+                Change_forecolors_to_white();
+                Properties.Settings.Default.BackColorMain = SystemColors.ControlDarkDark;
+                Properties.Settings.Default.ForeColorText = Color.White;
+                Properties.Settings.Default.ButtonColor = Color.Black;
+                Properties.Settings.Default.Checkbox = true;
+            }
+            else
+            {
+                this.BackColor = SystemColors.Control;
+                tabPage1.BackColor = SystemColors.Control;
+                tabPage2.BackColor = SystemColors.Control;
+                tabPage3.BackColor = SystemColors.Control;
+                Change_forecolors_to_black();
+                Properties.Settings.Default.BackColorMain = SystemColors.Control;
+                Properties.Settings.Default.ForeColorText = Color.Black;
+                Properties.Settings.Default.ButtonColor = SystemColors.ButtonHighlight;
+                Properties.Settings.Default.Checkbox = false;
+            }
             Properties.Settings.Default.Save();
             button1.Enabled = false;
         }
@@ -1198,8 +1340,25 @@ namespace Cashier_Reports__end_of_shift_
             Properties.Settings.Default.Cashier_name = textBox4.Text;
             Properties.Settings.Default.Cashier_number = textBox5.Text;
             Properties.Settings.Default.Cashier = comboBox2.Text;
+            if (checkBox1.Checked == true)
+            {
+                Properties.Settings.Default.BackColorMain = SystemColors.ControlDarkDark;
+                Properties.Settings.Default.ForeColorText = Color.White;
+                Properties.Settings.Default.Checkbox = true;
+            }
+            else
+            {
+                Properties.Settings.Default.BackColorMain = SystemColors.Control;
+                Properties.Settings.Default.ForeColorText = Color.Black;
+                Properties.Settings.Default.Checkbox = false;
+            }
             Properties.Settings.Default.Save();
             tabControl1.SelectedTab = tabPage1;
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            button1.Enabled = true;
         }
     }
 }

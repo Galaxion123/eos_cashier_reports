@@ -58,5 +58,77 @@ namespace Cashier_Reports__end_of_shift_.Properties {
                 this["Cashier"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Control")]
+        public global::System.Drawing.Color BackColorMain {
+            get {
+                return ((global::System.Drawing.Color)(this["BackColorMain"]));
+            }
+            set {
+                this["BackColorMain"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Black")]
+        public global::System.Drawing.Color ForeColorText {
+            get {
+                return ((global::System.Drawing.Color)(this["ForeColorText"]));
+            }
+            set {
+                this["ForeColorText"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("ButtonHighlight")]
+        public global::System.Drawing.Color ButtonColor {
+            get {
+                return ((global::System.Drawing.Color)(this["ButtonColor"]));
+            }
+            set {
+                this["ButtonColor"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Checkbox {
+            get {
+                return ((bool)(this["Checkbox"]));
+            }
+            set {
+                this["Checkbox"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("White")]
+        public global::System.Drawing.Color BackColorTextbox {
+            get {
+                return ((global::System.Drawing.Color)(this["BackColorTextbox"]));
+            }
+            set {
+                this["BackColorTextbox"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Cashier_Opera {
+            get {
+                return ((string)(this["Cashier_Opera"]));
+            }
+            set {
+                this["Cashier_Opera"] = value;
+            }
+        }
     }
 }
