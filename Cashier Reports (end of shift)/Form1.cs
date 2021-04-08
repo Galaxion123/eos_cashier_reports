@@ -113,9 +113,9 @@ namespace Cashier_Reports__end_of_shift_
             {
                 if (user_window.ShowDialog() == DialogResult.OK)
                 {
-                    Cashier_name.Text = "";
-                    textBox3.Text = "";
-                    comboBox1.Text = "";
+                    Cashier_name.Text = Properties.Settings.Default.Cashier_name;
+                    textBox3.Text = Properties.Settings.Default.Cashier_number;
+                    comboBox1.Text = Properties.Settings.Default.Cashier;
                 }
                 else
                 {
@@ -126,7 +126,22 @@ namespace Cashier_Reports__end_of_shift_
             }
             else
             {
-               
+                var Login = Path.Combine(Directory.GetCurrentDirectory(), "Login.xls");
+
+                Excel.Application xlLog = new Excel.Application();
+                xlLog.Visible = false;
+
+                Excel.Workbook xlLogworkbook = xlLog.Workbooks.Open(Login);
+
+                Excel.Sheets xlLogsheets = xlLogworkbook.Worksheets;
+                Excel.Worksheet xlLogins = (Excel.Worksheet)xlLogsheets.get_Item("Users");
+
+                int i = Properties.Settings.Default.i;
+                Console.WriteLine(i);
+                Cashier_name.Text = (string)(xlLogins.Cells[i, "B"] as Excel.Range).Value;
+                textBox3.Text = (string)(xlLogins.Cells[i, "C"] as Excel.Range).Value.ToString();
+                comboBox1.Text = (string)(xlLogins.Cells[i, "D"] as Excel.Range).Value.ToString();
+                xlLogworkbook.Close(false);
             }
         }
 

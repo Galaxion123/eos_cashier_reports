@@ -130,5 +130,16 @@ namespace Cashier_Reports__end_of_shift_.Properties {
                 this["Cashier_Opera"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public int i {
+            get {
+                return ((int)(this["i"]));
+            }
+            set {
+                this["i"] = value;
+            }
+        }
     }
 }

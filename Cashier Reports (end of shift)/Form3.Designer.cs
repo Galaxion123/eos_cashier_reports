@@ -51,6 +51,7 @@ namespace Cashier_Reports__end_of_shift_
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(171, 20);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -146,6 +147,7 @@ namespace Cashier_Reports__end_of_shift_
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Enabled = false;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(202, 209);

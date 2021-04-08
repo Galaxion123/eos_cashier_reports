@@ -1302,6 +1302,7 @@ namespace Cashier_Reports__end_of_shift_
             this.groupBox2.BackColor = global::Cashier_Reports__end_of_shift_.Properties.Settings.Default.BackColorMain;
             this.groupBox2.Controls.Add(this.comboBox2);
             this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Enabled = false;
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox2.ForeColor = global::Cashier_Reports__end_of_shift_.Properties.Settings.Default.ForeColorText;
             this.groupBox2.Location = new System.Drawing.Point(9, 132);
@@ -1356,6 +1357,7 @@ namespace Cashier_Reports__end_of_shift_
             this.groupBox1.Controls.Add(this.textBox5);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Enabled = false;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox1.ForeColor = global::Cashier_Reports__end_of_shift_.Properties.Settings.Default.ForeColorText;
             this.groupBox1.Location = new System.Drawing.Point(9, 6);
@@ -1451,7 +1453,7 @@ namespace Cashier_Reports__end_of_shift_
             this.label5.ForeColor = global::Cashier_Reports__end_of_shift_.Properties.Settings.Default.ForeColorText;
             this.label5.Location = new System.Drawing.Point(6, 23);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(636, 130);
+            this.label5.Size = new System.Drawing.Size(680, 182);
             this.label5.TabIndex = 0;
             this.label5.Text = resources.GetString("label5.Text");
             // 
@@ -1470,7 +1472,7 @@ namespace Cashier_Reports__end_of_shift_
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EOSReports";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Отчёты конца смены - v.1.5";
+            this.Text = "Отчёты конца смены - v2.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorNumeric)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorName)).EndInit();
